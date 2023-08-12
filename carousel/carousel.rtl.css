@@ -1,0 +1,1245 @@
+/* GLOBAL STYLES -------------------------------------------------- */
+
+@media (min-width: 768px) {
+  .bd-placeholder-img-lg {
+    font-size: 3.5rem;
+  }
+}
+
+.bd-placeholder-img {
+  font-size: 1.125rem;
+  text-anchor: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
+
+body {
+  padding-bottom: 0rem;
+  color: #5a5a5a;
+  font-family: 'Readex Pro';
+}
+
+.index-d {
+  position: relative;
+  height: auto;
+  background-position: center center;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+/* Colors */
+:root {
+  --color-primary: #feb900;
+}
+
+.h-h2 {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.h-h2:before,
+.h-h2:after {
+  content: "";
+  width: 50px;
+  height: 3px;
+  background: var(--color-primary);
+  display: inline-block;
+}
+
+.h-h2:before {
+  margin: 0 15px 10px 0;
+}
+
+.h-h2:after {
+  margin: 0 0 10px 15px;
+}
+
+@media (max-width: 1220px) {
+
+  .h-h1:before,
+  .h-h1:after {
+    content: "";
+    width: 0px;
+    height: 0px;
+  }
+
+  .h-h1:before {
+    margin: 0;
+  }
+
+  .h-h1:after {
+    margin: 0;
+  }
+}
+
+@media (max-width: 1220px) {
+
+  .h-h3:before,
+  .h-h3:after {
+    content: "";
+    width: 0px;
+    height: 0px;
+  }
+
+  .h-h3:before {
+    margin: 0;
+  }
+
+  .h-h3:after {
+    margin: 0;
+  }
+}
+
+.lead {
+  margin-left: 80px;
+  margin-right: 80px;
+  font-size: 18px;
+}
+
+.btn-get-started {
+  font-family: var(--font-primary);
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 12px 40px;
+  border-radius: 50px;
+  transition: 0.5s;
+  margin-bottom: 60px;
+  color: #fff;
+  border: 2px solid var(--color-primary);
+}
+
+.btn-get-started:hover {
+  background: var(--color-primary);
+}
+
+/*------------Navigation Bar-----------*/
+
+#navbar {
+  background-color: transparent;
+  transition: background-color 0.5s ease-in-out;
+}
+
+
+/* Dark background when scrolling down */
+#navbar.active {
+  background-color: #191919;
+}
+
+/*------------secondary header-----------*/
+.secondary-header {
+  background: url("../assets/images/back.png");
+  position: relative;
+  height: auto;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding-left: 160px;
+  padding-right: 160px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.secondary-header>div {
+  position: relative;
+  z-index: 1;
+}
+
+.secondary-header img {
+  width: 300px;
+  height: auto;
+  margin-top: 100px;
+}
+
+.btn-h {
+  margin-bottom: 40px;
+}
+
+.secondary-header h1 {
+  color: #FAFFFD;
+  margin-bottom: 30px;
+}
+
+.secondary-header p {
+  color: #FAFFFD;
+  margin-bottom: 30px;
+}
+
+/*------------ section 1 -----------*/
+
+.section1 {
+  background-color: #f3f3f3;
+}
+
+/*------------ section 3 -----------*/
+
+.section3 {
+  background-image: url("../assets/images/molecule_0.png");
+  background-size: 100%;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: auto !important;
+  padding-top: 100px;
+  padding-bottom: 100px;
+
+}
+
+.section3 img {
+  width: 140px;
+  height: auto;
+  margin-bottom: 40px;
+}
+
+.section3 a {
+  color: rgb(247, 247, 243);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  transition: opacity 0.1s ease-in-out;
+}
+
+.section3 a:hover img {
+  transform: scale(1.2);
+}
+
+/*------------------------------------- section 4 ------------------------------------- */
+
+.section4 {
+  position: relative;
+}
+
+.section4 p {
+  text-align: justify;
+}
+
+.ul-s {
+  padding: 0%;
+}
+
+.section4 h3 {
+  font-weight: 400;
+  margin-bottom: 60px;
+  text-align: center;
+}
+
+/*------------ section 5 -----------*/
+
+.section5 {
+  background-color: #f3f3f3;
+}
+
+.section5 h2 {
+  font-weight: 400;
+  margin-bottom: 60px;
+  text-align: center;
+}
+
+/* ----------------------------- */
+
+/* Carousel base class */
+.carousel {
+  margin-bottom: 4rem;
+}
+
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  bottom: 3rem;
+  z-index: 10;
+}
+
+/* Declare heights because of positioning of img element */
+.carousel-item {
+  height: 32rem;
+}
+
+.carousel-item>img {
+  position: absolute;
+  top: 0;
+  right: 0;
+  min-width: 100%;
+  height: 32rem;
+}
+
+@media (min-width: 40em) {
+  */ .carousel-caption p {
+    margin-bottom: 1.25rem;
+    font-size: 1.25rem;
+    line-height: 1.4;
+  }
+}
+
+/*-----------------footer-----------*/
+#myFooter {
+  background: url("../assets/images/footer.png");
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: auto;
+  font-family: 'Readex Pro';
+}
+
+#myH5 {
+  color: #feb900;
+}
+
+.text,
+#link {
+  color: rgb(247, 247, 243);
+}
+
+.custom {
+  text-align: right;
+}
+
+.circle-button {
+  display: inline-block;
+  border-radius: 50%;
+  overflow: hidden;
+  transition: transform 0.1s ease-in-out;
+}
+
+.circle-button:hover,
+.circle-button:focus {
+  transform: scale(1.1);
+}
+
+#icon {
+  width: 30px;
+}
+
+/*------------------------shatha-START---------------------*/
+.secondary-2-header {
+  background: url("../assets/images/scott-graham-OQMZwNd3ThU-unsplash.png") no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding-top: 150px;
+  padding-bottom: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+}
+
+.secondary-2-header img {
+  width: 150px;
+  height: auto;
+}
+
+.secondary-2-header h1 {
+  padding-top: 10px;
+  font-size: 28px;
+  color: white;
+}
+
+.box-main {
+  overflow-x: auto;
+  margin: 50px;
+  border-radius: 25px;
+  border: 2px solid #2A294C;
+  padding: 20px;
+}
+
+.box-main a {
+  text-align: center;
+}
+
+.pages {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+#pages {
+  text-align: center;
+}
+
+/*----------------timeline-----------*/
+.line_box {
+  display: flex;
+  margin-bottom: 40px;
+}
+
+.text_circle {
+  flex: 1;
+  text-align: center;
+  position: relative;
+}
+
+.text_circle:after {
+  background-color: grey;
+  bottom: 1.25em;
+  content: "";
+  display: block;
+  height: 3px;
+  position: absolute;
+  right: 0;
+  width: 50%;
+  z-index: -1;
+}
+
+.stav_projektu .text_circle:after,
+.stav_projektu .text_circle:before {
+  background-color: grey;
+}
+
+.line_box h4 {
+  color: #189599;
+  font-weight: bold;
+}
+
+.line_box h4,
+.line_box p {
+  font-size: 12px;
+  margin-bottom: 0;
+  padding: 0 5px;
+}
+
+.subline {
+  position: absolute;
+  right: -25px;
+  bottom: -43%;
+}
+
+.subline:before {
+  content: "";
+  position: absolute;
+  height: 15px;
+  width: 15px;
+  bottom: 14px;
+  right: 15px;
+  background-color: #189599;
+  border-radius: 50%;
+  top: -25px;
+}
+
+.subline h6 {
+  margin-bottom: 0;
+}
+
+.timeline {
+  margin: 40px 0;
+}
+
+.text_circle.done:after,
+.text_circle.done+.text_circle:before,
+.stav_projektu .text_circle.done:after,
+.stav_projektu .text_circle.done+.text_circle:before {
+  background-color: #072e30
+}
+
+.text_circle.sub:after {
+  background-color: #189599;
+}
+
+.text_circle:not(:first-child):before {
+  bottom: 1.25em;
+  content: "";
+  display: block;
+  height: 3px;
+  position: absolute;
+  left: 0;
+  width: 50%;
+  z-index: -1;
+  background-color: grey;
+}
+
+.stav_projektu .text_circle:not(:first-child):before {
+  background-color: grey;
+}
+
+.text_circle:last-child:after {
+  width: 0;
+}
+
+.circle-2 {
+  height: 100%;
+}
+
+.tvar {
+  height: 40px;
+  width: 40px;
+  border: 2px solid #189599;
+  display: flex;
+  position: relative;
+  border-radius: 100%;
+  top: -43px;
+  margin: 3px auto;
+  background-color: #fff;
+}
+
+.tvar span {
+  margin: 25% auto;
+  height: 20px;
+  width: 20px;
+  background-color: #072e30;
+  border-radius: 100%;
+  color: #fff;
+}
+
+.stav_projektu .tvar {
+  border: 2px solid grey;
+}
+
+.stav_projektu .done .tvar,
+.stav_projektu .sub .tvar {
+  border: 2px solid #072e30
+}
+
+.subline h6 {
+  color: #189599;
+}
+
+.timeline .card-header:hover {
+  background-color: #ececec;
+  cursor: pointer;
+}
+
+/* iPhone X ----------------------------------- */
+@media only screen and (device-width : 375px) and (device-height : 812px) and (-webkit-device-pixel-ratio : 3) {
+  .subline:before {
+    top: -43px;
+  }
+}
+
+@media only screen and (device-width : 812px) and (device-height : 375px) and (orientation : landscape) and (-webkit-device-pixel-ratio : 3) {
+  .subline:before {
+    top: -31px;
+  }
+}
+
+/* iPad portrait ----------------------------------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
+  .subline:before {
+    top: -29px;
+  }
+}
+
+/* mobile width till 767px ----------------------------------- */
+@media (max-width: 767px) {
+  .subline:before {
+    top: -30px;
+  }
+}
+
+/* Portrait iPad Pro */
+@media only screen and (min-width: 1024px) and (max-height: 1366px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1.5) {
+  .subline:before {
+    top: -23px;
+  }
+}
+
+/* mobile width till 480px ----------------------------------- */
+@media (max-width: 480px) {
+  .subline:before {
+    top: -43px;
+  }
+}
+
+/*------------------------shatha-End---------------------*/
+
+/*------------------------Renad--------------------------*/
+
+/*------------Navigation Bar-----------*/
+
+#navbar {
+  background-color: transparent;
+  transition: background-color 0.5s ease-in-out;
+}
+
+/* Dark background when scrolling down */
+#navbar.active {
+  background-color: #191919;
+}
+
+.dropdown-menu li {
+  position: relative;
+  }
+  .dropdown-menu .dropdown-submenu {
+  display: none;
+  position: absolute;
+  left: 100%;
+  top: -7px;
+  }
+  .dropdown-menu .dropdown-submenu-left {
+  right: 100%;
+  left: auto;
+  }
+  .dropdown-menu > li:hover > .dropdown-submenu {
+  display: block;
+  }
+
+/* --------------- */
+
+.secondary-header-Renad {
+  height: 400px;
+  background: url("../assets/images/photo_2023-08-03_09-14-19.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.secondary-header-Renad img {
+  width: 100px;
+  position: relative;
+  margin-top: 100px;
+  margin-bottom: 10px;
+
+}
+
+
+
+
+.secondary-header-Renad h1 {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  color: white;
+  text-align: center;
+
+}
+
+.secondary-header-Renad h6 {
+  padding-top: 5px;
+  padding-bottom: auto;
+  padding-left: 50px;
+  padding-right: 50px;
+  color: white;
+  text-align: center;
+
+}
+
+.Res-leader h4 {
+
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+
+}
+
+
+
+
+::-webkit-scrollbar {
+  display: none;
+
+}
+
+video {
+
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: cover;
+  z-index: -1;
+}
+
+/* ---------------------------------------------- */
+
+.team-member {
+  text-align: center;
+}
+
+.team-member .image {
+  position: relative;
+  z-index: 2;
+  overflow: hidden;
+}
+
+.team-member .overlay {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: -10%;
+  background-color: rgba(105, 116, 108, 0.7);
+  opacity: 0;
+  transition: all 0.4s ease;
+}
+
+.team-member h5 {
+  margin-top: 16px;
+  margin-bottom: 4px;
+}
+
+.team-member .social-icons1 {
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  opacity: 0;
+  transition: all 0.4s ease;
+}
+
+.team-member .social-icons1 a {
+  width: 40px;
+  height: 40px;
+}
+
+.team-member:hover .social-icons1 {
+  top: 50%;
+  opacity: 1;
+}
+
+.team-member:hover .overlay {
+  top: 0%;
+  opacity: 1;
+}
+
+#publications {
+  background: linear-gradient(-90deg, rgba(8, 32, 50, 0.8), rgba(8, 32, 50, 0.8)), url(https://kfmrc.kau.edu.sa/Images/141/2022/web/kfmrcb.jpg), #082032;
+  ;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.review {
+  text-align: center;
+  z-index: 2;
+  position: relative;
+  margin: 15px;
+  max-width: 768px;
+  margin: auto;
+}
+
+.review .bxs-quote-alt-left {
+  font-size: 120px;
+  position: absolute;
+  opacity: 0.1;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+}
+
+.review img {
+  width: 80px !important;
+  height: 80px;
+  border-radius: 100px;
+  margin: auto;
+}
+
+.review h5 {
+  margin-top: 16px;
+  margin-bottom: 4px;
+  color: #fff;
+}
+
+.review h3 {
+  margin-top: 26px;
+  margin-bottom: 26px;
+  font-size: 22px;
+  color: #fff;
+  font-weight: 400;
+  line-height: 1.7;
+}
+
+.review small {
+  color: var(--brand);
+}
+
+.review .stars {
+  color: var(--brand);
+}
+
+.blog-post {
+  position: relative;
+  background-color: #fff;
+  box-shadow: var(--shadow);
+}
+
+.blog-post .content {
+  padding: 32px;
+}
+
+.blog-post a {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  background-color: var(--brand);
+  padding: 2px 12px;
+  border-radius: 100px;
+  text-decoration: none;
+  color: #fff;
+}
+
+.blog-post h5 {
+  margin-top: 12px;
+  margin-bottom: 12px;
+}
+
+.blog-post small {
+  text-transform: uppercase;
+  color: var(--brand);
+  text-decoration: underline;
+}
+
+/*----------------------------- Renad-end  ------------------*/
+
+
+/*------------------------Majd-Start---------------------*/
+/*------------Global-----------*/
+
+.about-h {
+  position: relative;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.about-d {
+  position: relative;
+  height: auto;
+  background-position: center center;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.about-p {
+  text-align: justify;
+  position: relative;
+  margin-left: 70px;
+  margin-right: 70px;
+  font-size: 14px;
+  color: #48474e;
+}
+
+/*------------Secondary-header-----------*/
+
+.header2 {
+  position: relative;
+  height: auto;
+  background: url("../assets/images/about.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  background-position: center center;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-top: 65px;
+  padding-bottom: 65px;
+}
+
+.header2>div {
+  position: relative;
+  z-index: 1;
+}
+
+.header2 img {
+  width: 150px;
+  height: auto;
+  margin-top: 120px;
+}
+
+
+.header2 h1 {
+  color: #FAFFFD;
+
+}
+
+/*-----------------Section-zero------------------*/
+
+.sec0 {
+  position: relative;
+  height: auto;
+  width: 100%;
+  background: #f3f3f3;
+}
+
+/*-----------------Section-one------------------*/
+
+.sec1 {
+  position: relative;
+  height: auto;
+  width: 100%;
+}
+
+.photoC {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background: #f3f3f3;
+  padding-bottom: 40px;
+  padding-top: 40px;
+}
+
+.photoC h6 {
+  color: #000000;
+  text-align: center;
+}
+
+.photoC img {
+  height: auto;
+  width: 170px;
+  position: relative;
+  padding-bottom: 10px;
+}
+
+/*-----------------Section-two------------------*/
+
+.sec2 {
+  position: relative;
+  height: auto;
+  width: 100%;
+}
+
+.r1 {
+  margin: 0%;
+}
+
+.col1 {
+  flex: 1 0 50%;
+  padding-bottom: 20px;
+  align-items: center;
+  align-content: center;
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .col1 {
+    flex-basis: 100%;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+  }
+}
+
+.sec2 img {
+  height: auto;
+  width: 40%;
+  margin-bottom: 0%;
+}
+
+#img1 {
+  width: 5%;
+}
+
+.sec2 p {
+  color: #48474e;
+  font-size: 16px;
+  padding-top: 10px;
+  text-align: center;
+}
+
+/*-----------------Section-three------------------*/
+
+.sec3 {
+  background: #f3f3f3;
+  position: relative;
+  height: auto;
+  width: 100%;
+}
+
+.card-au {
+  height: auto;
+  width: 16rem;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.5);
+  transition: transform 0.3s ease;
+  margin-bottom: 20px;
+}
+
+.col2 {
+  width: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-au a {
+  color: #000000;
+  text-decoration: none;
+  font-size: 25px;
+}
+
+.card-au p {
+  text-align: center;
+}
+
+.card-au:hover {
+  transform: scale(1.1);
+}
+
+/*-----------------Section-four------------------*/
+
+.sec4 {
+  position: relative;
+  height: auto;
+  width: 100%;
+}
+
+.sec4-pa {
+  position: relative;
+  text-align: right;
+  color: #48474e;
+  margin-right: 72px;
+  margin-left: 72px;
+  font-size: 14px;
+}
+
+.sec4-pe {
+  position: relative;
+  text-align: left;
+  color: #48474e;
+  margin-right: 72px;
+  margin-left: 72px;
+  font-size: 14px;
+}
+
+.sec4 img {
+  width: 10px;
+  margin-right: 5px;
+}
+
+.sec4 img {
+  width: 10px;
+  margin-left: 5px;
+}
+
+/*------------------------Majd-End---------------------*/
+
+/*------------------------Atheer-Start---------------------*/
+.CETU-divider {
+  visibility: hidden;
+  margin: 2.8rem 0;
+}
+
+.CETU-section1 h2,
+.CETU-section2 h2,
+.CETU-section3 h2,
+.CETU-section4 h2 {
+  font-size: 38px;
+  font-weight: 900;
+  margin-bottom: 20px;
+}
+
+.CETU-section1,
+.CETU-section2,
+.CETU-section3,
+.CETU-section4 {
+  font-size: 18px;
+  font-weight: 700;
+  text-align: justify;
+  padding: 5%;
+}
+
+/*---------------- CETU-header -----------*/
+.CETU-header {
+  background-image: url("../assets/images/CETU/CETU_Header.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+  font-size: 2.5rem;
+  font-family: Readex Pro;
+  padding-top: 120px;
+  padding-bottom: 120px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.CETU-header-logo {
+  height: 160px;
+  width: 160px;
+}
+
+.CETU-header h1 {
+  font-family: Readerx Pro;
+}
+
+/*---------------- CETU-section1 -----------*/
+.CETU-section1 {
+  color: var(--color-primary);
+  text-align: center;
+}
+
+.CETU-section1 h2 {
+  color: #257CA3;
+}
+
+.CETU-sec1-info {
+  font-size: 18px;
+  font-weight: lighter;
+  color: #232B2E;
+  padding-left: 10%;
+  padding-right: 10%;
+  margin-bottom: 45px;
+}
+
+/*---------------- CETU-section2 -----------*/
+.CETU-section2 {
+  background-color: #dfe3e6;
+  color: #195570;
+  height: 50%;
+  padding-left: 8%;
+  padding-right: 8%;
+}
+
+.CETU-section2 h2 {
+  margin-top: 7rem;
+}
+
+.CETU-sec2-img-r {
+  justify-content: right;
+  align-items: right;
+  text-align: right;
+}
+
+.CETU-sec2-img-l {
+  justify-content: left;
+  align-items: left;
+  text-align: left;
+}
+
+@media (max-width: 1200px) {
+  .CETU-section2 {
+    text-align: center;
+  }
+
+  .CETU-section1,
+  .CETU-section2 {
+    padding-left: 8%;
+    padding-right: 8%;
+  }
+
+  .CETU-section2 h2 {
+    margin-top: 1rem;
+  }
+
+  .CETU-section2 p {
+    margin-bottom: 2rem;
+  }
+
+  .CETU-sec2-img-r,
+  .CETU-sec2-img-l {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    order: -1;
+  }
+}
+
+/*---------------- CETU-section3 -----------*/
+.CETU-section3 {
+  color: var(--color-primary);
+  text-align: center;
+}
+
+.CETU-section3 h2 {
+  color: #257CA3;
+  text-align: center;
+}
+
+.CETU-line {
+  border-top: 4px solid;
+  width: 55px;
+  margin: auto;
+  opacity: 90%;
+  margin-top: 45px;
+  margin-bottom: 18px;
+}
+
+.card-CETU {
+  height: 100%;
+  background-color: #257CA3;
+  color: #DCF3FF;
+}
+
+.CETU-sec3-info {
+  font-size: 15px;
+  font-weight: lighter;
+  color: #232B2E;
+  padding-left: 20%;
+  padding-right: 20%;
+  margin-bottom: 45px;
+}
+
+.CETU-sec3-prog-name {
+  font-size: 24px;
+  font-weight: bolder;
+  margin-top: 20px;
+}
+
+.CETU-sec3-prog-con {
+  font-size: 13px;
+  font-weight: lighter;
+  margin-bottom: 2% !important;
+}
+
+.CETU-sec3-prog-btn {
+  font-size: 13px;
+  font-weight: lighter;
+  color: #DCF3FF;
+  text-underline-offset: 0.5em;
+  text-decoration: underline 2px;
+  text-decoration-color: #DCF3FF;
+  text-decoration-thickness: 1.5px;
+}
+
+/*---------------- CETU-section4 -----------*/
+
+.CETU-section4 {
+  background-image: url("../assets/images/footer.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: var(--color-primary);
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn-sec4,
+#CETU-sec4-link {
+  text-decoration: none;
+  color: #D6E2E8;
+  border-color: #D6E2E8;
+  border-width: 2.3px;
+  background-color: transparent;
+}
+
+.btn-sec4-font {
+  font-size: 20px;
+  font-weight: normal;
+}
+
+.btn-sec4-color {
+  color: #D6E2E8;
+}
+
+.btn-sec4:hover {
+  color: #777272;
+  background-color: #D6E2E8;
+}
+
+/*------------------------Atheer-End---------------------*/
+
+/*------------------------orgChart----------------------*/
+
+
+
+
+
+/*-----------------------End------------------------*/
