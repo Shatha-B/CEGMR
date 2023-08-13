@@ -14,14 +14,11 @@
 
   <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/carousel-rtl/">
 
-  <script type="text/javascript" src="../assets/Pages.js"></script>
-
-
+ 
 
   <!-- Bootstrap core CSS -->
   <link href="../assets/dist/css/bootstrap.rtl.min.css" rel="stylesheet">
   <link href="../assets/dist/css/Menu.KauMat.css" rel="stylesheet" type="text/css" />
-
 
   <style>
     .bd-placeholder-img {
@@ -39,133 +36,151 @@
     }
   </style>
 
-
   <!-- Custom styles for this template -->
   <link href="../carousel/carousel.rtl.css" rel="stylesheet">
 </head>
 
-<body>
-
-  <header>
-    <nav class="navbar navbar-expand-md navbar-dark navbar-default fixed-top" style="font-family: 'montserrat';"
-        id="navbar">
-        <!-- class="navbar navbar-expand-md navbar-dark fixed-top bg-dark" -->
-        <div class="container-fluid">
-            <a class="navbar-brand" href="https://www.kau.edu.sa/">
-                <img src="../assets/images/logo_kau.png" alt="">
+<!------------------------------------------ Navigation-Bar ------------------------------------------>
+<header>
+  <nav class="navbar navbar-expand-md navbar-dark navbar-default fixed-top" style="font-family: 'montserrat';"
+    id="navbar">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="https://www.kau.edu.sa/">
+        <img src="../assets/images/logo_kau.png" alt="">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
+        aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav me-auto mb-2 mb-md-0">
+          <li class="nav-item">
+            <a class="nav-link" href="../carousel-rtl/index-en.html">Main Page</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../carousel-rtl/About-Us-en.html">About Us</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">Administration </a>
+            <ul class="dropdown-menu ">
+              <li><a class="dropdown-item" href="https://www.kau.edu.sa/Content-117-en-231642"
+                  style="text-align: left;">Executive Board</a></li>
+              <li><a class="dropdown-item" href="https://www.kau.edu.sa/Content-117-en-51137"
+                  style="text-align: left;">Administrative Board</a></li>
+              <li><a class="dropdown-item" href="https://cegmr.kau.edu.sa/Content-117-EN-231612"
+                  style="text-align: left;">Scientific Advisor Committee</a></li>
+              <li><a class="dropdown-item" href="https://cegmr.kau.edu.sa/Content-117-EN-237677"
+                  style="text-align: left;">Postgraduate Committee</a></li>
+              <li><a class="dropdown-item" href="https://cegmr.kau.edu.sa/Content-117-EN-238247"
+                  style="text-align: left;">Ethical Committee</a></li>
+              <li><a class="dropdown-item" href="https://cegmr.kau.edu.sa/Content-117-EN-238280"
+                  style="text-align: left;">Elite Student Program Committee</a></li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLinkRight" role="button"
+                  data-mdb-toggle="dropdown" aria-expanded="false"
+                  style="color: rgb(36, 36, 36); margin-left: 9px; text-align: left;">Administrative Unit </a>
+                <ul class="dropdown-menu dropdown-submenu dropdown-submenu-right">
+                  <li><a class="dropdown-item" href="https://cegmr.kau.edu.sa/Pages-Secretary-Unit-En.aspx"
+                      style="text-align: left;">Secretary Unit</a></li>
+                  <li><a class="dropdown-item" href="https://cegmr.kau.edu.sa/Pages-Employment-Unit-En.aspx"
+                      style="text-align: left;">Employment Unit</a></li>
+                  <li><a class="dropdown-item" href="https://cegmr.kau.edu.sa/Pages-Ordering-monitoring-unit-En.aspx"
+                      style="text-align: left;">Oredering and Purchasing Unit</a></li>
+                  <li><a class="dropdown-item" href="https://cegmr.kau.edu.sa/Pages-IT-Unit-En.aspx"
+                      style="text-align: left;">IT Unit</a></li>
+                  <li><a class="dropdown-item" href="https://cegmr.kau.edu.sa/Pages-Financial-Unit-En.aspx"
+                      style="text-align: left;">Financial Unit</a></li>
+                  <li><a class="dropdown-item" href="https://cegmr.kau.edu.sa/Pages-Public-Relation-Unit-En.aspx"
+                      style="text-align: left;">Public Relations and Marketing Unit</a></li>
+                  <li><a class="dropdown-item" href="https://cegmr.kau.edu.sa/Pages-Transportation-Unit-En.aspx"
+                      style="text-align: left;">Transportation Unit</a></li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="../carousel-rtl/Researchers-en.html">Researchers</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " href="../carousel-rtl/Scientific-Publication-en.html">Research</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="../carousel-rtl/Programs-en.html">Programs</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../carousel-rtl/Continuing-Education-&-Training-Unit-en.html">Training and
+              Continuing Education Unit</a>
+          </li>
+        </ul>
+        <form class="d-flex">
+          <input class="form-control mx-2" type="search" placeholder="search" aria-label="search">
+          <button class="btn btn-outline-success" type="submit">search</button>
+        </form>
+        <ul class="navbar-nav">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              <img src="../assets/images/globe.png" style="width: 25px; height: 25px;" alt="">
             </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
-                aria-controls="navbarCollapse" aria-expanded="false" aria-label="تبديل التنقل">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarCollapse">
-                <ul class="navbar-nav me-auto mb-2 mb-md-0">
-                    <li class="nav-item">
-                        <a class="nav-link" href="../carousel-rtl/index-eng.html">Main Page</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="../carousel-rtl/About-Us-en.html">About Us</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                            aria-expanded="false">
-                            Administration
-                        </a>
-                        <ul class="dropdown-menu ">
-                            <li><a class="dropdown-item" href="#">Organization Chart</a></li>
-                            <li><a class="dropdown-item" href="#">Another action</a></li>
-                            <li>
-                                <hr class="dropdown-divider">
-                            </li>
-                            <li><a class="dropdown-item" href="#">Something else here</a></li>
-                        </ul>
-                    </li>
-
-                    <li class="nav-item">
-                        <a class="nav-link active"  aria-current="page" href="../carousel-rtl/Researchers-en.html">Reasearchers</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link " href="#">Research</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link"
-                            href="../carousel-rtl/Programs-en.html">Programs</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link"
-                            href="../carousel-rtl/Continuing-Education-&-Training-Unit-en.html">Continuing Education</a>
-                    </li>
-                </ul>
-                <form class="d-flex">
-                    <input class="form-control me-2" type="search" placeholder="search" aria-label="search">
-                    <button class="btn btn-outline-success" type="submit">search</button>
-                </form>
-                <ul class="navbar-nav">
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                            aria-expanded="false">
-                            <img src="../assets/images/globe.png" style="width: 25px; height: 25px;" alt="">
-                        </a>
-                        <ul class="dropdown-menu dropdown-menu-end">
-                            <li>
-                                <a class="dropdown-item" href="https://cegmr.kau.edu.sa/Default-117-AR">العربية</a>
-                            </li>
-                            <li>
-                                <a class="dropdown-item" href="https://cegmr.kau.edu.sa/Default-117-EN">English</a>
-                            </li>
-                        </ul>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </nav>
+            <ul class="dropdown-menu dropdown-menu-end">
+              <li>
+                <a class="dropdown-item" href="../carousel-rtl/About-Us-ar.html">العربية</a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="../carousel-rtl/About-Us-en.html">English</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
 </header>
-  <div>
-   <!--  <video src="../assets/images/video_2023-07-24_09-35-14.mp4" autoplay muted loop></video> --> 
+
+<!------------------------------------------ body ------------------------------------------>
+<body>
+  <!-----------secondary-header--------->
+  <div class="secondary-header-Renad">
+    <img src="../assets/images/workshops.png">
+    <h1> Researchers </h1>
+
+
+    <h6> The CEGMR is dedicated to the advancement of medicinal sciences and translation of research findings into
+      better health care.
+      It is totally committed to explore fundamental molecular causes of diseases through discovery research and to
+      device the innovative
+      therapies of tomorrow by translational research. For this purpose a group of highly talented, experienced,
+      dedicated and enthusiastic
+      research leaders has been assembled to undertake innovative research in the areas of unmet medical needs in
+      order to provide
+      novel treatment and diagnostic options to the clinicians in the Kingdom of Saudi Arabia.</h6>
   </div>
 
 
-  <main>
+  <!------------------  Body  ------------------>
 
 
-    <!-----------secondary-header--------->
-    <div class="secondary-header-Renad">
-      <img src="../assets/images/workshops.png">
-      <h1> Researchers </h1>
-   
-    
-     <h6> The CEGMR is dedicated to the advancement of medicinal sciences and translation of research findings into better health care. 
-      It is totally committed to explore fundamental molecular causes of diseases through discovery research and to device the innovative 
-      therapies of tomorrow by translational research. For this purpose a group of highly talented, experienced, dedicated and enthusiastic
-       research leaders has been assembled to undertake innovative research in the areas of unmet medical needs in order to provide 
-       novel treatment and diagnostic options to the clinicians in the Kingdom of Saudi Arabia.</h6>
-  </div>
-
-
-    <!------------------  Body  ------------------>
-
-
-    <!-- Carousel Start -->
-    <section
-      style=" background-image: url('https://kfmrc.kau.edu.sa/Images/141/2022/web/kfmrcbgt.jpg'); background-position: center; background-repeat: repeat;">
-      <div class="container container-fluid">
-        <div class="row">
-          <div class="col-12">
-            <div class="intro">
+  <!-- Carousel Start -->
+  <section
+    style=" background-image: url('https://kfmrc.kau.edu.sa/Images/141/2022/web/kfmrcbgt.jpg'); background-position: center; background-repeat: repeat;">
+    <div class="container container-fluid">
+      <div class="row">
+        <div class="col-12">
+          <div class="intro">
             <!--  <input style="width:100%; border:1px solid #ddd; color:grey; align:center;"
                 class="searchbox-input justify-content-center" id="myInput" type="text" onkeyup="myFunction()"
                 placeholder="بـحـث ... (يمكنك البحث بالاسم - اسم الوحدة - )">   -->
-              
-            </div>
-            <div>
-              <p style="display:inline-block; ">
-                 <div class="Res-leader">
-                <h4> Research Leaders   </h4> 
-                <hr class="CETU-line" />
-                <ul style="margin-top: 41px;">
-                  </ul>
+
+          </div>
+          <div>
+            <p style="display:inline-block; ">
+            <div class="Res-leader">
+              <h4> Research Leaders </h4>
+              <hr class="CETU-line" />
+              <ul style="margin-top: 41px;">
+              </ul>
               </p>
-              </div>
+            </div>
           </div>
         </div>
 
@@ -197,7 +212,8 @@
                 <p>
                   <br>
 
-                  A Founder and Executive Director of the Consultant Office for Medical Services (COMS). King Abdulaziz
+                  A Founder and Executive Director of the Consultant Office for Medical Services (COMS). King
+                  Abdulaziz
                   University Jeddah, KSA
 
                   <br>
@@ -266,7 +282,7 @@
                 </p>
               </div>
             </div>
-            <div class="col-lg-3 col-md-4 card "  style="height: 576px;">
+            <div class="col-lg-3 col-md-4 card " style="height: 576px;">
               <div class="team-member">
                 <div class="image">
                   <img class=img-fluid src="../assets/images/smale-nopic-log.jpg" style="width:100%;" alt="">
@@ -295,7 +311,7 @@
                 </p>
               </div>
             </div>
-            <div class="col-lg-3 col-md-4 card "  style="height: 576px;">
+            <div class="col-lg-3 col-md-4 card " style="height: 576px;">
               <div class="team-member">
                 <div class="image">
                   <img class=img-fluid src="../assets/images/smale-nopic-log.jpg" style="width:100%;" alt="">
@@ -323,7 +339,7 @@
                 </p>
               </div>
             </div>
-            <div class="col-lg-3 col-md-4 card "  style="height: 576px;">
+            <div class="col-lg-3 col-md-4 card " style="height: 576px;">
               <div class="team-member">
                 <div class="image">
                   <img class=img-fluid src="../assets/images/smale-nopic-log.jpg" style="width:100%;" alt="">
@@ -346,7 +362,8 @@
                 <p>
                   <br>
 
-                  Professor, Coordinator of Genetic Counselling Service Unit Genomic Screening & Neurogenomics Research
+                  Professor, Coordinator of Genetic Counselling Service Unit Genomic Screening & Neurogenomics
+                  Research
                   Groups
 
                   <br>
@@ -386,7 +403,7 @@
                 </p>
               </div>
             </div>
-            <div class="col-lg-3 col-md-4 card "  style="height: 576px;">
+            <div class="col-lg-3 col-md-4 card " style="height: 576px;">
               <div class="team-member">
                 <div class="image">
                   <img class=img-fluid src="../assets/images/female-nopic-log.jpg" style="width:100%;" alt="">
@@ -416,7 +433,7 @@
                 </p>
               </div>
             </div>
-            <div class="col-lg-3 col-md-4 card "  style="height: 576px;">
+            <div class="col-lg-3 col-md-4 card " style="height: 576px;">
               <div class="team-member">
                 <div class="image">
                   <img class=img-fluid src="../assets/images/smale-nopic-log.jpg" style="width:100%;" alt="">
@@ -446,7 +463,7 @@
                 </p>
               </div>
             </div>
-            <div class="col-lg-3 col-md-4 card "  style="height: 576px;">
+            <div class="col-lg-3 col-md-4 card " style="height: 576px;">
               <div class="team-member">
                 <div class="image">
                   <img class=img-fluid src="../assets/images/female-nopic-log.jpg" style="width:100%;" alt="">
@@ -477,7 +494,7 @@
                 </p>
               </div>
             </div>
-            <div class="col-lg-3 col-md-4 card "  style="height: 576px;">
+            <div class="col-lg-3 col-md-4 card " style="height: 576px;">
               <div class="team-member">
                 <div class="image">
                   <img class=img-fluid src="../assets/images/smale-nopic-log.jpg" style="width:100%;" alt="">
@@ -509,7 +526,7 @@
                 </p>
               </div>
             </div>
-            <div class="col-lg-3 col-md-4 card "  style="height: 576px;">
+            <div class="col-lg-3 col-md-4 card " style="height: 576px;">
               <div class="team-member">
                 <div class="image">
                   <img class=img-fluid src="../assets/images/smale-nopic-log.jpg" style="width:100%;" alt="">
@@ -539,7 +556,7 @@
                 </p>
               </div>
             </div>
-            <div class="col-lg-3 col-md-4 card "  style="height: 576px;">
+            <div class="col-lg-3 col-md-4 card " style="height: 576px;">
               <div class="team-member">
                 <div class="image">
                   <img class=img-fluid src="../assets/images/smale-nopic-log.jpg" style="width:100%;" alt="">
@@ -569,7 +586,7 @@
                 </p>
               </div>
             </div>
-            <div class="col-lg-3 col-md-4 card "  style="height: 576px;">
+            <div class="col-lg-3 col-md-4 card " style="height: 576px;">
               <div class="team-member">
                 <div class="image">
                   <img class=img-fluid src="../assets/images/female-nopic-log.jpg" style="width:100%;" alt="">
@@ -599,7 +616,7 @@
                 </p>
               </div>
             </div>
-            <div class="col-lg-3 col-md-4 card "  style="height: 576px;">
+            <div class="col-lg-3 col-md-4 card " style="height: 576px;">
               <div class="team-member">
                 <div class="image">
                   <img class=img-fluid src="../assets/images/female-nopic-log.jpg" style="width:100%;" alt="">
@@ -630,8 +647,7 @@
             <div class="col-lg-3 col-md-4 card " style="height: 576px;">
               <div class="team-member">
                 <div class="image">
-                  <img class=img-fluid src="../assets/images/smale-nopic-log.jpg"
-                    style="width:100%;" alt="">
+                  <img class=img-fluid src="../assets/images/smale-nopic-log.jpg" style="width:100%;" alt="">
                   <div class="social-icons1">
                     <a href="mailto:dmhussein@kau.edu.sa"><i class="bx bxl-gmail"></i></a>
                     <a href="https://twitter.com/amdeemah"><i class="bx bxl-twitter"></i></a>
@@ -649,7 +665,8 @@
                 <p>
                   <br>
                   Assistant Professor
-Coordinator of Flowcytometry and Molecular genetics Service Units Cancer Genomics, Tissue Culture & Regenerative Medicine Research Groups
+                  Coordinator of Flowcytometry and Molecular genetics Service Units Cancer Genomics, Tissue Culture &
+                  Regenerative Medicine Research Groups
 
                 </p>
               </div>
@@ -657,9 +674,7 @@ Coordinator of Flowcytometry and Molecular genetics Service Units Cancer Genomic
             <div class="col-lg-3 col-md-4 card " style="height: 576px;">
               <div class="team-member">
                 <div class="image">
-                  <img class=img-fluid
-                    src="../assets/images/smale-nopic-log.jpg"
-                    style="width:100%;" alt="">
+                  <img class=img-fluid src="../assets/images/smale-nopic-log.jpg" style="width:100%;" alt="">
                   <div class="social-icons1">
                     <a href="mailto:dyoussef@kau.edu.sa"><i class="bx bxl-gmail"></i></a>
                     <!-- <a href="https://twitter.com/malmashjary"><i class='bx bxl-twitter'></i></a>-->
@@ -668,13 +683,13 @@ Coordinator of Flowcytometry and Molecular genetics Service Units Cancer Genomic
                   </div>
                   <div class="overlay"></div>
                 </div>
-                <h5> Dr. Wafa-Makky Nichols  </h5>
+                <h5> Dr. Wafa-Makky Nichols </h5>
                 <p>
                   <br>
                   Continuing Education and Outreach Program
                   CEGMR, King Abdulaziz
-                   University Jeddah, KSA
-                  
+                  University Jeddah, KSA
+
                   <br>
                   <i class="bx bxs-phone-call"></i> 22156
                 </p>
@@ -683,8 +698,7 @@ Coordinator of Flowcytometry and Molecular genetics Service Units Cancer Genomic
             <div class="col-lg-3 col-md-4 card " style="height: 576px;">
               <div class="team-member">
                 <div class="image">
-                  <img class=img-fluid src="../assets/images/smale-nopic-log.jpg"
-                    style="width:100%;" alt="">
+                  <img class=img-fluid src="../assets/images/smale-nopic-log.jpg" style="width:100%;" alt="">
                   <div class="social-icons1">
                     <a href="mailto:jhalyami@kau.edu.sa"><i class="bx bxl-gmail"></i></a>
                     <!--  <a href="https://twitter.com/ab_wesam"><i class='bx bxl-twitter'></i></a>
@@ -696,12 +710,12 @@ Coordinator of Flowcytometry and Molecular genetics Service Units Cancer Genomic
                 </div>
                 <h5>Dr. Kalamegam Gauthaman
                 </h5>
-                <p>    
+                <p>
                   <br>
                   Assistant Professor
-Coordinator of Tissue Culture Service Unit
-Tissue Culture & Regenerative
-Medicine Research Group
+                  Coordinator of Tissue Culture Service Unit
+                  Tissue Culture & Regenerative
+                  Medicine Research Group
 
                 </p>
               </div>
@@ -709,8 +723,7 @@ Medicine Research Group
             <div class="col-lg-3 col-md-4 card " style="height: 576px;">
               <div class="team-member">
                 <div class="image">
-                  <img class=img-fluid src="../assets/images/smale-nopic-log.jpg"
-                    style="width:100%;" alt="">
+                  <img class=img-fluid src="../assets/images/smale-nopic-log.jpg" style="width:100%;" alt="">
                   <div class="social-icons1">
                     <a href="mailto:saalharthy@kau.edu.sa"><i class="bx bxl-gmail"></i></a>
                     <a href="https://mobile.twitter.com/SaifalharthyKAU"><i class="bx bxl-twitter"></i></a>
@@ -720,21 +733,19 @@ Medicine Research Group
                   </div>
                   <div class="overlay"></div>
                 </div>
-                <h5>Dr. Mohammed Jafrai   </h5>
+                <h5>Dr. Mohammed Jafrai </h5>
                 <p>
                   <br>
-                  Coordinator of Pharmacogenomics & Drug  Discovery Pharmacogenomics
+                  Coordinator of Pharmacogenomics & Drug Discovery Pharmacogenomics
                   and Cancer Genomics Research Groups Assistant of Teratogenecity and Toxicity Service Unit
-                 
+
                 </p>
               </div>
             </div>
             <div class="col-lg-3 col-md-4 card " style="height: 576px;">
               <div class="team-member">
                 <div class="image">
-                  <img class=img-fluid
-                    src="../assets/images/smale-nopic-log.jpg"
-                    style="width:100%;" alt="">
+                  <img class=img-fluid src="../assets/images/smale-nopic-log.jpg" style="width:100%;" alt="">
                   <div class="social-icons1">
                     <a href="mailto:mhaque@kau.edu.sa"><i class="bx bxl-gmail"></i></a>
                     <!--   <a href="https://twitter.com/hassanalsheikh1"><i class='bx bxl-twitter'></i></a>
@@ -745,11 +756,11 @@ Medicine Research Group
                 </div>
                 <h5>Dr. Sajjad Karim
                 </h5>
-                <p> 
+                <p>
                   <br>
                   Assistant Professor
-Coordinator of Bioinformatics Service Unit
-Bioinformatics and Cancer Research Groups
+                  Coordinator of Bioinformatics Service Unit
+                  Bioinformatics and Cancer Research Groups
 
                 </p>
               </div>
@@ -757,8 +768,7 @@ Bioinformatics and Cancer Research Groups
             <div class="col-lg-3 col-md-4 card " style="height: 576px;">
               <div class="team-member">
                 <div class="image">
-                  <img class=img-fluid src="../assets/images/smale-nopic-log.jpg"
-                    style="width:100%;" alt="">
+                  <img class=img-fluid src="../assets/images/smale-nopic-log.jpg" style="width:100%;" alt="">
                   <div class="social-icons1">
                     <a href="mailto:atoulah@kau.edu.sa"><i class="bx bxl-gmail"></i></a>
                     <a href="https://twitter.com/ahmadmajditolah"><i class="bx bxl-twitter"></i></a>
@@ -772,8 +782,8 @@ Bioinformatics and Cancer Research Groups
                 <p>
                   <br>
                   Assistant Professor
-Coordinator of Bioinformatics Service Unit
-Bioinformatics and Cancer Research Groups
+                  Coordinator of Bioinformatics Service Unit
+                  Bioinformatics and Cancer Research Groups
 
                   <br>
                   <i class="bx bxs-phone-call"></i> 25306
@@ -783,8 +793,7 @@ Bioinformatics and Cancer Research Groups
             <div class="col-lg-3 col-md-4 card " style="height: 576px;">
               <div class="team-member">
                 <div class="image">
-                  <img class=img-fluid src="../assets/images/smale-nopic-log.jpg"
-                    style="width:100%;" alt="">
+                  <img class=img-fluid src="../assets/images/smale-nopic-log.jpg" style="width:100%;" alt="">
                   <div class="social-icons1">
                     <a href="mailto:hmsahmed@kau.edu.sa"><i class="bx bxl-gmail"></i></a>
                     <!--     <a href="https://twitter.com/ahmadmajditolah"><i class='bx bxl-twitter'></i></a>
@@ -793,53 +802,53 @@ Bioinformatics and Cancer Research Groups
                   </div>
                   <div class="overlay"></div>
                 </div>
-                <h5>Dr. Mahmood Rasool 
+                <h5>Dr. Mahmood Rasool
                 </h5>
                 <p>
                   <br>
-                  Assistant of Pharmacogenomics & Drug Discovery Service Unit Pharmacogenomics and Genomic Screening Groups
+                  Assistant of Pharmacogenomics & Drug Discovery Service Unit Pharmacogenomics and Genomic Screening
+                  Groups
 
                 </p>
               </div>
             </div>
-           
+
             <!-- -------------------------------------  -->
           </div>
         </div>
       </div>
-    </section>
-    <!--end row-->
+  </section>
+  <!--end row-->
 
 
 
 
 
 
-    <div class="container container-fluid">
-      <div class="row">
-        <div class="col-12">
-          <div class="intro">
-            <div>
-              <div class="Res-leader">
+  <div class="container container-fluid">
+    <div class="row">
+      <div class="col-12">
+        <div class="intro">
+          <div>
+            <div class="Res-leader">
               <p style="display:inline-block; ">
-                <h4 style="direction: ltr;">International Experts   </h4> 
-                <hr class="CETU-line" />
-                <ul style="margin-top: 60px;">
-                  </ul>
+              <h4 style="direction: ltr;">International Experts </h4>
+              <hr class="CETU-line" />
+              <ul style="margin-top: 60px;">
+              </ul>
               </p>
-              </div>
+            </div>
           </div>
         </div>
       </div>
     </div>
 
     <div class="container" id="MyCards">
-      <div class="row row-cols-3" style="direction: ltr;" >
-        <div class="col-lg-3 col-md-4 card "  style="height: 576px ;">
+      <div class="row row-cols-3" style="direction: ltr;">
+        <div class="col-lg-3 col-md-4 card " style="height: 576px ;">
           <div class="team-member">
             <div class="image">
-              <img class=img-fluid src="../assets/images/smale-nopic-log.jpg" style="width:100%;"
-                alt="">
+              <img class=img-fluid src="../assets/images/smale-nopic-log.jpg" style="width:100%;" alt="">
               <div class="social-icons1">
                 <a href="mailto:atabdalhadi@kau.edu.sa"><i class="bx bxl-gmail"></i></a>
                 <!--     <a href="https://twitter.com/ahmadmajditolah"><i class='bx bxl-twitter'></i></a>
@@ -853,18 +862,18 @@ Bioinformatics and Cancer Research Groups
             </h5>
             <p>
               <br>
-              Director of the Galician Public Foundation of Genomic Medicine and Director of the Spanish National Genotyping Centre.  Spain
+              Director of the Galician Public Foundation of Genomic Medicine and Director of the Spanish National
+              Genotyping Centre. Spain
 
               <br>
               <i class="bx bxs-phone-call"></i> 73563
             </p>
           </div>
         </div>
-        <div class="col-lg-3 col-md-4 card "  style="height: 576px ;">
+        <div class="col-lg-3 col-md-4 card " style="height: 576px ;">
           <div class="team-member">
             <div class="image">
-              <img class=img-fluid src="../assets/images/smale-nopic-log.jpg"
-                style="width:100%;" alt="">
+              <img class=img-fluid src="../assets/images/smale-nopic-log.jpg" style="width:100%;" alt="">
               <div class="social-icons1">
                 <a href="mailto:ralsulaiman@kau.edu.sa"><i class="bx bxl-gmail"></i></a>
                 <!--        <a href="https://twitter.com/basimbyg2"><i class='bx bxl-twitter'></i></a>
@@ -873,22 +882,21 @@ Bioinformatics and Cancer Research Groups
               </div>
               <div class="overlay"></div>
             </div>
-            <h5>Prof. Jerry Shay 
+            <h5>Prof. Jerry Shay
             </h5>
             <p>
               <br>
               Director, Cancer Biology
-Department of Cell Biology
-University of Texas Southwestern Medical Center Dallas, USA
+              Department of Cell Biology
+              University of Texas Southwestern Medical Center Dallas, USA
 
             </p>
           </div>
         </div>
-        <div class="col-lg-3 col-md-4 card "  style="height: 576px ;">
+        <div class="col-lg-3 col-md-4 card " style="height: 576px ;">
           <div class="team-member">
             <div class="image">
-              <img class=img-fluid src="../assets/images/smale-nopic-log.jpg"
-                style="width:100%;" alt="">
+              <img class=img-fluid src="../assets/images/smale-nopic-log.jpg" style="width:100%;" alt="">
               <div class="social-icons1">
                 <a href="mailto:zmirza1@kau.edu.sa"><i class="bx bxl-gmail"></i></a>
                 <!--        <a href="https://twitter.com/basimbyg2"><i class='bx bxl-twitter'></i></a>
@@ -899,21 +907,20 @@ University of Texas Southwestern Medical Center Dallas, USA
             </div>
             <h5>Prof Sudhir Kumar
             </h5>
-            <p> 
+            <p>
               <br>
-              Founding  and Director, Institute for Genomics and Evolutionary Medicine (iGEM) 
-USA
+              Founding and Director, Institute for Genomics and Evolutionary Medicine (iGEM)
+              USA
 
               <br>
               <i class="bx bxs-phone-call"></i> 72074
             </p>
           </div>
         </div>
-        <div class="col-lg-3 col-md-4 card "  style="height: 576px ;">
+        <div class="col-lg-3 col-md-4 card " style="height: 576px ;">
           <div class="team-member">
             <div class="image">
-              <img class=img-fluid src="../assets/images/smale-nopic-log.jpg"
-                style="width:100%;" alt="">
+              <img class=img-fluid src="../assets/images/smale-nopic-log.jpg" style="width:100%;" alt="">
               <div class="social-icons1">
                 <a href="mailto:zalnaser@kau.edu.sa"><i class="bx bxl-gmail"></i></a>
                 <!--        <a href="https://twitter.com/basimbyg2"><i class='bx bxl-twitter'></i></a>
@@ -922,21 +929,20 @@ USA
               </div>
               <div class="overlay"></div>
             </div>
-            <h5>Prof Stephen Scherer 
+            <h5>Prof Stephen Scherer
             </h5>
             <p>
               <br>
               Director of the McLaughlin Centre and Centre for Applied Genomics
               Hospital for Sick Children and University of Toronto, Canada
-              
+
             </p>
           </div>
         </div>
-        <div class="col-lg-3 col-md-4 card "  style="height: 576px ;">
+        <div class="col-lg-3 col-md-4 card " style="height: 576px ;">
           <div class="team-member">
             <div class="image">
-              <img class=img-fluid src="../assets/images/smale-nopic-log.jpg"
-                style="width:100%;" alt="">
+              <img class=img-fluid src="../assets/images/smale-nopic-log.jpg" style="width:100%;" alt="">
               <div class="social-icons1">
                 <a href="mailto:sharakeh@kau.edu.sa"><i class="bx bxl-gmail"></i></a>
                 <!--        <a href="https://twitter.com/basimbyg2"><i class='bx bxl-twitter'></i></a>
@@ -945,24 +951,23 @@ USA
               </div>
               <div class="overlay"></div>
             </div>
-            <h5>Prof. Ashok Agarwal 
+            <h5>Prof. Ashok Agarwal
             </h5>
-            <p> 
+            <p>
               <br>
               Director of Center for Reproductive Medicine
-The Cleveland Clinic
-Cleveland USA
+              The Cleveland Clinic
+              Cleveland USA
 
               <br>
               <i class="bx bxs-phone-call"></i> 25424
             </p>
           </div>
         </div>
-        <div class="col-lg-3 col-md-4 card "  style="height: 576px ;">
+        <div class="col-lg-3 col-md-4 card " style="height: 576px ;">
           <div class="team-member">
             <div class="image">
-              <img class=img-fluid src="../assets/images/smale-nopic-log.jpg"
-                style="width:100%;" alt="">
+              <img class=img-fluid src="../assets/images/smale-nopic-log.jpg" style="width:100%;" alt="">
               <div class="social-icons1">
                 <a href="mailto:ssohrab@kau.edu.sa"><i class="bx bxl-gmail"></i></a>
                 <!--    <a href="https://twitter.com/saud_maswadi"><i class='bx bxl-twitter'></i></a>
@@ -971,22 +976,22 @@ Cleveland USA
               </div>
               <div class="overlay"></div>
             </div>
-            <h5>   Prof Bruce Budowle 
+            <h5> Prof Bruce Budowle
             </h5>
-            <p> 
+            <p>
               <br>
-              Chair of the DNA Commission of the ISFG, and a member of the DNA Advisory Board. Founder of CODIS National DNA database, USA
+              Chair of the DNA Commission of the ISFG, and a member of the DNA Advisory Board. Founder of CODIS
+              National DNA database, USA
 
               <br>
               <i class="bx bxs-phone-call"></i> 73530
             </p>
           </div>
         </div>
-        <div class="col-lg-3 col-md-4 card "  style="height: 576px ;">
+        <div class="col-lg-3 col-md-4 card " style="height: 576px ;">
           <div class="team-member">
             <div class="image">
-              <img class=img-fluid src="../assets/images/smale-nopic-log.jpg"
-                style="width:100%;" alt="">
+              <img class=img-fluid src="../assets/images/smale-nopic-log.jpg" style="width:100%;" alt="">
               <div class="social-icons1">
                 <a href="mailto:saelkfrawy@kau.edu.sa"><i class="bx bxl-gmail"></i></a>
                 <!--    <a href="https://twitter.com/saud_maswadi"><i class='bx bxl-twitter'></i></a>
@@ -995,23 +1000,23 @@ Cleveland USA
               </div>
               <div class="overlay"></div>
             </div>
-            <h5>Prof. Fornace Albert 
+            <h5>Prof. Fornace Albert
             </h5>
-            <p> 
+            <p>
               <br>
-              Chair, Georgetown from Harvard School of Public Health, director of John B. Little Center for the Radiation Sciences and Environmental Health. 
-USA
+              Chair, Georgetown from Harvard School of Public Health, director of John B. Little Center for the
+              Radiation Sciences and Environmental Health.
+              USA
 
               <br>
               <i class="bx bxs-phone-call"></i> 25304
             </p>
           </div>
         </div>
-        <div class="col-lg-3 col-md-4 card "  style="height: 576px ;">
+        <div class="col-lg-3 col-md-4 card " style="height: 576px ;">
           <div class="team-member">
             <div class="image">
-              <img class=img-fluid src="../assets/images/smale-nopic-log.jpg" style="width:100%;"
-                alt="">
+              <img class=img-fluid src="../assets/images/smale-nopic-log.jpg" style="width:100%;" alt="">
               <div class="social-icons1">
                 <a href="mailto:stabrez@kau.edu.sa"><i class="bx bxl-gmail"></i></a>
                 <!--    <a href="https://twitter.com/saud_maswadi"><i class='bx bxl-twitter'></i></a>
@@ -1020,13 +1025,13 @@ USA
               </div>
               <div class="overlay"></div>
             </div>
-            <h5>Prof Kuo-Chen Chou 
+            <h5>Prof Kuo-Chen Chou
             </h5>
-            <p> 
+            <p>
               <br>
               He is the chief scientist of Gordon Life Science Institute.
               USA
-              
+
               <br>
               <i class="bx bxs-phone-call"></i> 25304
             </p>
@@ -1035,9 +1040,9 @@ USA
         <!------------------------------------------------------------------------------------------------->
       </div>
     </div>
-    </div>
-    </section>
-    <!--end row-->
+  </div>
+  </section>
+  <!--end row-->
 
 
 
@@ -1045,19 +1050,19 @@ USA
 
 
 
-    <div class="container container-fluid">
-      <div class="row">
-        <div class="col-12">
-          <div class="intro">
-            <div>
-              <p style="display:inline-block; ">
-                <div class="Res-leader">
-                <h4 style="direction: ltr;" >Technical Staff Labs    </h4> 
-                <hr class="CETU-line" />
-                <ul style="margin-top: 60px;">
-                  </ul>
+  <div class="container container-fluid">
+    <div class="row">
+      <div class="col-12">
+        <div class="intro">
+          <div>
+            <p style="display:inline-block; ">
+            <div class="Res-leader">
+              <h4 style="direction: ltr;">Technical Staff Labs </h4>
+              <hr class="CETU-line" />
+              <ul style="margin-top: 60px;">
+              </ul>
               </p>
-              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -1070,11 +1075,11 @@ USA
           <div class="intro">
             <div>
               <p style="display:inline-block; ">
-                <h5 style="direction: ltr;">Cytogenetic Lab         </h5> 
-                <ul style="margin-top: 60px;">
-                  </ul>
+              <h5 style="direction: ltr;">Cytogenetic Lab </h5>
+              <ul style="margin-top: 60px;">
+              </ul>
               </p>
-              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -1083,11 +1088,10 @@ USA
 
     <div class="container" id="MyCards">
       <div class="row row-cols-3" style="direction: ltr;">
-        <div class="col-lg-3 col-md-4 card "  style="height: 576px ;">
+        <div class="col-lg-3 col-md-4 card " style="height: 576px ;">
           <div class="team-member">
             <div class="image">
-              <img class=img-fluid src="../assets/images/female-nopic-log.jpg"
-                style="width:100%;" alt="">
+              <img class=img-fluid src="../assets/images/female-nopic-log.jpg" style="width:100%;" alt="">
               <div class="social-icons1">
                 <a href="mailto:sakhan01@kau.edu.sa"><i class="bx bxl-gmail"></i></a>
                 <!--    <a href="https://twitter.com/saud_maswadi"><i class='bx bxl-twitter'></i></a>
@@ -1096,20 +1100,19 @@ USA
               </div>
               <div class="overlay"></div>
             </div>
-            <h5>Lina Mohammed Ali Al Harbi  </h5>
-            <p> Lab Supervisor 
+            <h5>Lina Mohammed Ali Al Harbi </h5>
+            <p> Lab Supervisor
               <br>
-             
+
               <br>
-              <i class="bx bxs-phone-call"></i> 
+              <i class="bx bxs-phone-call"></i>
             </p>
           </div>
         </div>
-        <div class="col-lg-3 col-md-4 card "  style="height: 576px ;">
+        <div class="col-lg-3 col-md-4 card " style="height: 576px ;">
           <div class="team-member">
             <div class="image">
-              <img class=img-fluid src="../assets/images/female-nopic-log.jpg"
-                style="width:100%;" alt="">
+              <img class=img-fluid src="../assets/images/female-nopic-log.jpg" style="width:100%;" alt="">
               <div class="social-icons1">
                 <a href="mailto:oaalahmadi@kau.edu.sa"><i class="bx bxl-gmail"></i></a>
                 <!--    <a href="https://twitter.com/saud_maswadi"><i class='bx bxl-twitter'></i></a>
@@ -1119,19 +1122,18 @@ USA
               <div class="overlay"></div>
             </div>
             <h5> Afaf Abdulrahman Maqbooli </h5>
-            <p>     
+            <p>
               <br>
-                 
+
               <br>
-              <i class="bx bxs-phone-call"></i>  
+              <i class="bx bxs-phone-call"></i>
             </p>
           </div>
         </div>
-        <div class="col-lg-3 col-md-4 card "  style="height: 576px ;">
+        <div class="col-lg-3 col-md-4 card " style="height: 576px ;">
           <div class="team-member">
             <div class="image">
-              <img class=img-fluid src="../assets/images/female-nopic-log.jpg"
-                style="width:100%;" alt="">
+              <img class=img-fluid src="../assets/images/female-nopic-log.jpg" style="width:100%;" alt="">
               <div class="social-icons1">
                 <a href="mailto:fnaseer@kau.edu.sa"><i class="bx bxl-gmail"></i></a>
                 <!--    <a href="https://twitter.com/saud_maswadi"><i class='bx bxl-twitter'></i></a>
@@ -1141,19 +1143,18 @@ USA
               <div class="overlay"></div>
             </div>
             <h5>Jawaher Mesfer Al-Yami </h5>
-            <p> 
+            <p>
               <br>
-                
+
               <br>
-              <i class="bx bxs-phone-call"></i>  
+              <i class="bx bxs-phone-call"></i>
             </p>
           </div>
         </div>
-        <div class="col-lg-3 col-md-4 card "  style="height: 576px ;">
+        <div class="col-lg-3 col-md-4 card " style="height: 576px ;">
           <div class="team-member">
             <div class="image">
-              <img class=img-fluid src="../assets/images/smale-nopic-log.jpg"
-                style="width:100%;" alt="">
+              <img class=img-fluid src="../assets/images/smale-nopic-log.jpg" style="width:100%;" alt="">
               <div class="social-icons1">
                 <a href="mailto:fmalzahrani5@kau.edu.sa"><i class="bx bxl-gmail"></i></a>
                 <!--    <a href="https://twitter.com/saud_maswadi"><i class='bx bxl-twitter'></i></a>
@@ -1163,17 +1164,16 @@ USA
               <div class="overlay"></div>
             </div>
             <h5>Maha Attaallah AL-Goregori </h5>
-            <p> 
+            <p>
               <br>
-                     
+
             </p>
           </div>
         </div>
-        <div class="col-lg-3 col-md-4 card "  style="height: 576px ;">
+        <div class="col-lg-3 col-md-4 card " style="height: 576px ;">
           <div class="team-member">
             <div class="image">
-              <img class=img-fluid src="../assets/images/female-nopic-log.jpg"
-                style="width:100%;" alt="">
+              <img class=img-fluid src="../assets/images/female-nopic-log.jpg" style="width:100%;" alt="">
               <div class="social-icons1">
                 <a href="mailto:kzaher@kau.edu.sa"><i class="bx bxl-gmail"></i></a>
                 <!--    <a href="https://twitter.com/saud_maswadi"><i class='bx bxl-twitter'></i></a>
@@ -1183,11 +1183,11 @@ USA
               <div class="overlay"></div>
             </div>
             <h5>Muna Mohammed Al-Mughamsi </h5>
-            <p> 
+            <p>
               <br>
-                   
+
               <br>
-              <i class="bx bxs-phone-call"></i>  
+              <i class="bx bxs-phone-call"></i>
             </p>
           </div>
         </div>
@@ -1195,521 +1195,497 @@ USA
         <!------------------------------------------------------------------------------------------------->
       </div>
     </div>
+  </div>
+  </section>
+  <!--end row-->
+
+
+
+  <div class="container container-fluid">
+    <div class="row">
+      <div class="col-12">
+        <div class="intro">
+          <div>
+            <p style="display:inline-block; ">
+            <h5 style="direction: ltr;">Molecular Lab </h5>
+            <ul style="margin-top: 60px;">
+            </ul>
+            </p>
+          </div>
+        </div>
+      </div>
     </div>
-    </section>
-    <!--end row-->
+  </div>
 
 
-
-        <div class="container container-fluid">
-          <div class="row">
-            <div class="col-12">
-              <div class="intro">
-                <div>
-                  <p style="display:inline-block; ">
-                    <h5 style="direction: ltr;">Molecular Lab         </h5> 
-                    <ul style="margin-top: 60px;">
-                      </ul>
-                  </p>
-                  </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-
-        <div class="container" id="MyCards">
-          <div class="row row-cols-3" style="direction: ltr;">
-        <div class="col-lg-3 col-md-4 card "  style="height: 576px ;">
-          <div class="team-member">
-            <div class="image">
-              <img class=img-fluid src="../assets/images/smale-nopic-log.jpg"
-                style="width:100%;" alt="">
-              <div class="social-icons1">
-                <a href="mailto:mamostafa@kau.edu.sa"><i class="bx bxl-gmail"></i></a>
-                <!--    <a href="https://twitter.com/saud_maswadi"><i class='bx bxl-twitter'></i></a>
+  <div class="container" id="MyCards">
+    <div class="row row-cols-3" style="direction: ltr;">
+      <div class="col-lg-3 col-md-4 card " style="height: 576px ;">
+        <div class="team-member">
+          <div class="image">
+            <img class=img-fluid src="../assets/images/smale-nopic-log.jpg" style="width:100%;" alt="">
+            <div class="social-icons1">
+              <a href="mailto:mamostafa@kau.edu.sa"><i class="bx bxl-gmail"></i></a>
+              <!--    <a href="https://twitter.com/saud_maswadi"><i class='bx bxl-twitter'></i></a>
                                     <a href="https://sa.linkedin.com/in/nasreen-mosbeh%C2%A0-26078277"><i class='bx bxl-linkedin'></i></a>-->
-                <a href="https://kfmrc.kau.edu.sa/Content-141-AR-277481"><i class="bx bxl-google"></i></a>
-              </div>
-              <div class="overlay"></div>
+              <a href="https://kfmrc.kau.edu.sa/Content-141-AR-277481"><i class="bx bxl-google"></i></a>
             </div>
-            <h5>Abrar Mahmoud Ashi   </h5>
-            <p> 
-              <br>
-              
-            </p>
+            <div class="overlay"></div>
           </div>
+          <h5>Abrar Mahmoud Ashi </h5>
+          <p>
+            <br>
+
+          </p>
         </div>
-        <div class="col-lg-3 col-md-4 card "  style="height: 576px ;">
-          <div class="team-member">
-            <div class="image">
-              <img class=img-fluid src="../assets/images/smale-nopic-log.jpg"
-                style="width:100%;" alt="">
-              <div class="social-icons1">
-                <a href="mailto:mmoulay@kau.edu.sa"><i class="bx bxl-gmail"></i></a>
-                <!--     <a href="https://twitter.com/saud_maswadi"><i class='bx bxl-twitter'></i></a>
+      </div>
+      <div class="col-lg-3 col-md-4 card " style="height: 576px ;">
+        <div class="team-member">
+          <div class="image">
+            <img class=img-fluid src="../assets/images/smale-nopic-log.jpg" style="width:100%;" alt="">
+            <div class="social-icons1">
+              <a href="mailto:mmoulay@kau.edu.sa"><i class="bx bxl-gmail"></i></a>
+              <!--     <a href="https://twitter.com/saud_maswadi"><i class='bx bxl-twitter'></i></a>
                                     <a href="https://sa.linkedin.com/in/nasreen-mosbeh%C2%A0-26078277"><i class='bx bxl-linkedin'></i></a>-->
-                <a href="https://kfmrc.kau.edu.sa/Content-141-AR-277468"><i class="bx bxl-google"></i></a>
-              </div>
-              <div class="overlay"></div>
+              <a href="https://kfmrc.kau.edu.sa/Content-141-AR-277468"><i class="bx bxl-google"></i></a>
             </div>
-            <h5>Dania Abed Jan  </h5>
-            <p> 
-              <br>
-            
-            </p>
+            <div class="overlay"></div>
           </div>
+          <h5>Dania Abed Jan </h5>
+          <p>
+            <br>
+
+          </p>
         </div>
-        <div class="col-lg-3 col-md-4 card "  style="height: 576px ;">
-          <div class="team-member">
-            <div class="image">
-              <img class=img-fluid src="../assets/images/smale-nopic-log.jpg"
-                style="width:100%;" alt="">
-              <div class="social-icons1">
-                <a href="mailto:mzalam@kau.edu.sa"><i class="bx bxl-gmail"></i></a>
-                <!--     <a href="https://twitter.com/saud_maswadi"><i class='bx bxl-twitter'></i></a>
+      </div>
+      <div class="col-lg-3 col-md-4 card " style="height: 576px ;">
+        <div class="team-member">
+          <div class="image">
+            <img class=img-fluid src="../assets/images/smale-nopic-log.jpg" style="width:100%;" alt="">
+            <div class="social-icons1">
+              <a href="mailto:mzalam@kau.edu.sa"><i class="bx bxl-gmail"></i></a>
+              <!--     <a href="https://twitter.com/saud_maswadi"><i class='bx bxl-twitter'></i></a>
                                     <a href="https://sa.linkedin.com/in/nasreen-mosbeh%C2%A0-26078277"><i class='bx bxl-linkedin'></i></a>-->
-                <a href="https://kfmrc.kau.edu.sa/Content-141-AR-277480"><i class="bx bxl-google"></i></a>
-              </div>
-              <div class="overlay"></div>
+              <a href="https://kfmrc.kau.edu.sa/Content-141-AR-277480"><i class="bx bxl-google"></i></a>
             </div>
-            <h5> Shireen Abubakr Hussain    </h5>
-            <p>   Lab Supervisor 
-              <br>
-          
-            </p>
+            <div class="overlay"></div>
           </div>
+          <h5> Shireen Abubakr Hussain </h5>
+          <p> Lab Supervisor
+            <br>
+
+          </p>
         </div>
-        <div class="col-lg-3 col-md-4 card "  style="height: 576px ;">
-          <div class="team-member">
-            <div class="image">
-              <img class=img-fluid src="../assets/images/smale-nopic-log.jpg"
-                style="width:100%;" alt="">
-              <div class="social-icons1">
-                <a href="mailto:melssouli@kau.edu.sa"><i class="bx bxl-gmail"></i></a>
-                <!--     <a href="https://twitter.com/saud_maswadi"><i class='bx bxl-twitter'></i></a>
+      </div>
+      <div class="col-lg-3 col-md-4 card " style="height: 576px ;">
+        <div class="team-member">
+          <div class="image">
+            <img class=img-fluid src="../assets/images/smale-nopic-log.jpg" style="width:100%;" alt="">
+            <div class="social-icons1">
+              <a href="mailto:melssouli@kau.edu.sa"><i class="bx bxl-gmail"></i></a>
+              <!--     <a href="https://twitter.com/saud_maswadi"><i class='bx bxl-twitter'></i></a>
                                     <a href="https://sa.linkedin.com/in/nasreen-mosbeh%C2%A0-26078277"><i class='bx bxl-linkedin'></i></a>
 							     	<a href="https://kfmrc.kau.edu.sa/Content-141-AR-277480"><i class='bx bxl-google'></i></a>-->
-              </div>
-              <div class="overlay"></div>
             </div>
-            <h5> Lobna Siraj Mira  </h5>
-            <p>   
-              <br>
-             
-            </p>
+            <div class="overlay"></div>
           </div>
+          <h5> Lobna Siraj Mira </h5>
+          <p>
+            <br>
+
+          </p>
         </div>
-        <div class="col-lg-3 col-md-4 card "  style="height: 576px ;">
-          <div class="team-member">
-            <div class="image">
-              <img class=img-fluid src="../assets/images/smale-nopic-log.jpg"
-                style="width:100%;" alt="">
-              <div class="social-icons1">
-                <a href="mailto:mmunnwar@kau.edu.sa"><i class="bx bxl-gmail"></i></a>
-                <!--     <a href="https://twitter.com/saud_maswadi"><i class='bx bxl-twitter'></i></a>
+      </div>
+      <div class="col-lg-3 col-md-4 card " style="height: 576px ;">
+        <div class="team-member">
+          <div class="image">
+            <img class=img-fluid src="../assets/images/smale-nopic-log.jpg" style="width:100%;" alt="">
+            <div class="social-icons1">
+              <a href="mailto:mmunnwar@kau.edu.sa"><i class="bx bxl-gmail"></i></a>
+              <!--     <a href="https://twitter.com/saud_maswadi"><i class='bx bxl-twitter'></i></a>
                                     <a href="https://sa.linkedin.com/in/nasreen-mosbeh%C2%A0-26078277"><i class='bx bxl-linkedin'></i></a>-->
-                <a href="https://kfmrc.kau.edu.sa/Content-141-AR-277495"><i class="bx bxl-google"></i></a>
-              </div>
-              <div class="overlay"></div>
+              <a href="https://kfmrc.kau.edu.sa/Content-141-AR-277495"><i class="bx bxl-google"></i></a>
             </div>
-            <h5>Manal Attaallah Al-Otaibi   </h5>
-            <p> 
-              <br>
-              
-              <br>
-              <i class="bx bxs-phone-call"></i>  
-            </p>
+            <div class="overlay"></div>
           </div>
+          <h5>Manal Attaallah Al-Otaibi </h5>
+          <p>
+            <br>
+
+            <br>
+            <i class="bx bxs-phone-call"></i>
+          </p>
         </div>
-        <div class="col-lg-3 col-md-4 card "  style="height: 576px ;">
-          <div class="team-member">
-            <div class="image">
-              <img class=img-fluid src="../assets/images/smale-nopic-log.jpg"
-                style="width:100%;" alt="">
-              <div class="social-icons1">
-                <a href="mailto:yamuhammad@kau.edu.sa"><i class="bx bxl-gmail"></i></a>
-                <!--     <a href="https://twitter.com/saud_maswadi"><i class='bx bxl-twitter'></i></a>
+      </div>
+      <div class="col-lg-3 col-md-4 card " style="height: 576px ;">
+        <div class="team-member">
+          <div class="image">
+            <img class=img-fluid src="../assets/images/smale-nopic-log.jpg" style="width:100%;" alt="">
+            <div class="social-icons1">
+              <a href="mailto:yamuhammad@kau.edu.sa"><i class="bx bxl-gmail"></i></a>
+              <!--     <a href="https://twitter.com/saud_maswadi"><i class='bx bxl-twitter'></i></a>
                                     <a href="https://sa.linkedin.com/in/nasreen-mosbeh%C2%A0-26078277"><i class='bx bxl-linkedin'></i></a>-->
-                <a href="https://kfmrc.kau.edu.sa/Content-141-AR-277494"><i class="bx bxl-google"></i></a>
-              </div>
-              <div class="overlay"></div>
+              <a href="https://kfmrc.kau.edu.sa/Content-141-AR-277494"><i class="bx bxl-google"></i></a>
             </div>
-            <h5>Ahamd Ali Al-Zahrani</h5>
-            <p> 
-              <br>
-             
-            </p>
+            <div class="overlay"></div>
           </div>
+          <h5>Ahamd Ali Al-Zahrani</h5>
+          <p>
+            <br>
+
+          </p>
         </div>
-        <div class="col-lg-3 col-md-4 card "  style="height: 576px ;">
-          <div class="team-member">
-            <div class="image">
-              <img class=img-fluid src="../assets/images/smale-nopic-log.jpg"
-                style="width:100%;" alt="">
-              <div class="social-icons1">
-                <a href="mailto:mrtahir@kau.edu.sa"><i class="bx bxl-gmail"></i></a>
-                <!--     <a href="https://twitter.com/saud_maswadi"><i class='bx bxl-twitter'></i></a>
+      </div>
+      <div class="col-lg-3 col-md-4 card " style="height: 576px ;">
+        <div class="team-member">
+          <div class="image">
+            <img class=img-fluid src="../assets/images/smale-nopic-log.jpg" style="width:100%;" alt="">
+            <div class="social-icons1">
+              <a href="mailto:mrtahir@kau.edu.sa"><i class="bx bxl-gmail"></i></a>
+              <!--     <a href="https://twitter.com/saud_maswadi"><i class='bx bxl-twitter'></i></a>
                                     <a href="https://sa.linkedin.com/in/nasreen-mosbeh%C2%A0-26078277"><i class='bx bxl-linkedin'></i></a>-->
-                <a href="https://kfmrc.kau.edu.sa/Content-141-AR-277485"><i class="bx bxl-google"></i></a>
-              </div>
-              <div class="overlay"></div>
+              <a href="https://kfmrc.kau.edu.sa/Content-141-AR-277485"><i class="bx bxl-google"></i></a>
             </div>
-            <h5>Nadia Yaslam Bagatian</h5>
-            <p> 
-              <br>
-               
-            </p>
+            <div class="overlay"></div>
           </div>
+          <h5>Nadia Yaslam Bagatian</h5>
+          <p>
+            <br>
+
+          </p>
         </div>
-        <div class="col-lg-3 col-md-4 card "  style="height: 576px ;">
-          <div class="team-member">
-            <div class="image">
-              <img class=img-fluid src="../assets/images/smale-nopic-log.jpg"
-                style="width:100%;" alt="">
-              <div class="social-icons1">
-                <a href="mailto:meldaly@kau.edu.sa"><i class="bx bxl-gmail"></i></a>
-                <!--     <a href="https://twitter.com/saud_maswadi"><i class='bx bxl-twitter'></i></a>
+      </div>
+      <div class="col-lg-3 col-md-4 card " style="height: 576px ;">
+        <div class="team-member">
+          <div class="image">
+            <img class=img-fluid src="../assets/images/smale-nopic-log.jpg" style="width:100%;" alt="">
+            <div class="social-icons1">
+              <a href="mailto:meldaly@kau.edu.sa"><i class="bx bxl-gmail"></i></a>
+              <!--     <a href="https://twitter.com/saud_maswadi"><i class='bx bxl-twitter'></i></a>
                                     <a href="https://sa.linkedin.com/in/nasreen-mosbeh%C2%A0-26078277"><i class='bx bxl-linkedin'></i></a>-->
-                <a href="https://kfmrc.kau.edu.sa/Content-141-AR-277488"><i class="bx bxl-google"></i></a>
-              </div>
-              <div class="overlay"></div>
+              <a href="https://kfmrc.kau.edu.sa/Content-141-AR-277488"><i class="bx bxl-google"></i></a>
             </div>
-            <h5> Samah Allayat </h5>
-            <p> 
-              <br>
-             
-              <br>
-              <i class="bx bxs-phone-call"></i>  
-            </p>
+            <div class="overlay"></div>
           </div>
+          <h5> Samah Allayat </h5>
+          <p>
+            <br>
+
+            <br>
+            <i class="bx bxs-phone-call"></i>
+          </p>
         </div>
-        <div class="col-lg-3 col-md-4 card "  style="height: 576px ;">
-          <div class="team-member">
-            <div class="image">
-              <img class=img-fluid src="../assets/images/smale-nopic-log.jpg"
-                style="width:100%;" alt="">
-              <div class="social-icons1">
-                <a href="mailto:haabuaraki@kau.edu.sa"><i class="bx bxl-gmail"></i></a>
-                <!--     <a href="https://twitter.com/saud_maswadi"><i class='bx bxl-twitter'></i></a>
+      </div>
+      <div class="col-lg-3 col-md-4 card " style="height: 576px ;">
+        <div class="team-member">
+          <div class="image">
+            <img class=img-fluid src="../assets/images/smale-nopic-log.jpg" style="width:100%;" alt="">
+            <div class="social-icons1">
+              <a href="mailto:haabuaraki@kau.edu.sa"><i class="bx bxl-gmail"></i></a>
+              <!--     <a href="https://twitter.com/saud_maswadi"><i class='bx bxl-twitter'></i></a>
                                     <a href="https://sa.linkedin.com/in/nasreen-mosbeh%C2%A0-26078277"><i class='bx bxl-linkedin'></i></a>
 							     	<a href="https://kfmrc.kau.edu.sa/Content-141-AR-277468"><i class='bx bxl-google'></i></a>-->
-              </div>
-              <div class="overlay"></div>
             </div>
-            <h5> Safaa Mohammed Aldahlawi</h5>
-            <p> 
-              <br>
-           
-            </p>
+            <div class="overlay"></div>
           </div>
-        </div>
-        <div class="col-lg-3 col-md-4 card "  style="height: 576px ;">
-          <div class="team-member">
-            <div class="image">
-              <img class=img-fluid src="../assets/images/smale-nopic-log.jpg"
-                style="width:100%;" alt="">
-              <div class="social-icons1">
-                <a href="mailto:wtarab@kau.edu.sa"><i class="bx bxl-gmail"></i></a>
-                <!--     <a href="https://twitter.com/saud_maswadi"><i class='bx bxl-twitter'></i></a>
-                                    <a href="https://sa.linkedin.com/in/nasreen-mosbeh%C2%A0-26078277"><i class='bx bxl-linkedin'></i></a>-->
-                <a href="https://kfmrc.kau.edu.sa/Content-141-AR-277443"><i class="bx bxl-google"></i></a>
-              </div>
-              <div class="overlay"></div>
-            </div>
-            <h5>Nuha Abdullha Al Ansari</h5>
-            <p> 
-              <br>
-             
-            </p>
-          </div>
-        </div>
+          <h5> Safaa Mohammed Aldahlawi</h5>
+          <p>
+            <br>
 
-        <div class="col-lg-3 col-md-4 card "  style="height: 576px ;">
-          <div class="team-member">
-            <div class="image">
-              <img class=img-fluid src="../assets/images/smale-nopic-log.jpg"
-                style="width:100%;" alt="">
-              <div class="social-icons1">
-                <a href="mailto:wtarab@kau.edu.sa"><i class="bx bxl-gmail"></i></a>
-                <!--     <a href="https://twitter.com/saud_maswadi"><i class='bx bxl-twitter'></i></a>
-                                    <a href="https://sa.linkedin.com/in/nasreen-mosbeh%C2%A0-26078277"><i class='bx bxl-linkedin'></i></a>-->
-                <a href="https://kfmrc.kau.edu.sa/Content-141-AR-277443"><i class="bx bxl-google"></i></a>
-              </div>
-              <div class="overlay"></div>
-            </div>
-            <h5>Ohoud Faisal Subhi</h5>
-            <p> 
-              <br>
-             
-            </p>
-          </div>
-        </div>
-
-        <div class="col-lg-3 col-md-4 card "  style="height: 576px ;">
-          <div class="team-member">
-            <div class="image">
-              <img class=img-fluid src="../assets/images/smale-nopic-log.jpg"
-                style="width:100%;" alt="">
-              <div class="social-icons1">
-                <a href="mailto:wtarab@kau.edu.sa"><i class="bx bxl-gmail"></i></a>
-                <!--     <a href="https://twitter.com/saud_maswadi"><i class='bx bxl-twitter'></i></a>
-                                    <a href="https://sa.linkedin.com/in/nasreen-mosbeh%C2%A0-26078277"><i class='bx bxl-linkedin'></i></a>-->
-                <a href="https://kfmrc.kau.edu.sa/Content-141-AR-277443"><i class="bx bxl-google"></i></a>
-              </div>
-              <div class="overlay"></div>
-            </div>
-            <h5> Alla Albugami</h5>
-            <p> 
-              <br>
-             
-            </p>
-          </div>
-        </div>
-
-        <div class="col-lg-3 col-md-4 card "  style="height: 576px ;">
-          <div class="team-member">
-            <div class="image">
-              <img class=img-fluid src="../assets/images/smale-nopic-log.jpg"
-                style="width:100%;" alt="">
-              <div class="social-icons1">
-                <a href="mailto:wtarab@kau.edu.sa"><i class="bx bxl-gmail"></i></a>
-                <!--     <a href="https://twitter.com/saud_maswadi"><i class='bx bxl-twitter'></i></a>
-                                    <a href="https://sa.linkedin.com/in/nasreen-mosbeh%C2%A0-26078277"><i class='bx bxl-linkedin'></i></a>-->
-                <a href="https://kfmrc.kau.edu.sa/Content-141-AR-277443"><i class="bx bxl-google"></i></a>
-              </div>
-              <div class="overlay"></div>
-            </div>
-            <h5>Huda Abdulrahman Banni</h5>
-            <p> 
-              <br>
-             
-            </p>
-          </div>
-        </div>
-
-        <div class="col-lg-3 col-md-4 card "  style="height: 576px ;">
-          <div class="team-member">
-            <div class="image">
-              <img class=img-fluid src="../assets/images/smale-nopic-log.jpg"
-                style="width:100%;" alt="">
-              <div class="social-icons1">
-                <a href="mailto:wtarab@kau.edu.sa"><i class="bx bxl-gmail"></i></a>
-                <!--     <a href="https://twitter.com/saud_maswadi"><i class='bx bxl-twitter'></i></a>
-                                    <a href="https://sa.linkedin.com/in/nasreen-mosbeh%C2%A0-26078277"><i class='bx bxl-linkedin'></i></a>-->
-                <a href="https://kfmrc.kau.edu.sa/Content-141-AR-277443"><i class="bx bxl-google"></i></a>
-              </div>
-              <div class="overlay"></div>
-            </div>
-            <h5>Ghalia Basher Baba</h5>
-            <p> 
-              <br>
-             
-            </p>
-          </div>
-        </div>
-
-        <!------------------------------------------------------------------------------------------------->
-      </div>
-    </div>
-    </div>
-    </section>
-    <!--end row-->
-
-
-
-   
-
-    <div class="container container-fluid">
-      <div class="row">
-        <div class="col-12">
-          <div class="intro">
-            <div>
-              <p style="display:inline-block; ">
-                <h5 style="direction: ltr;" >Biobank Lab          </h5> 
-                <ul style="margin-top: 60px;">
-                  </ul>
-              </p>
-              </div>
-          </div>
+          </p>
         </div>
       </div>
-    </div>
-
-    <div class="container" id="MyCards">
-      <div class="row row-cols-3" style="direction: ltr;">
-    <div class="col-lg-3 col-md-4 card "  style="height: 576px ;">
-      <div class="team-member">
-        <div class="image">
-          <img class=img-fluid src="../assets/images/smale-nopic-log.jpg"
-            style="width:100%;" alt="">
-          <div class="social-icons1">
-            <a href="mailto:wtarab@kau.edu.sa"><i class="bx bxl-gmail"></i></a>
-            <!--     <a href="https://twitter.com/saud_maswadi"><i class='bx bxl-twitter'></i></a>
-                                <a href="https://sa.linkedin.com/in/nasreen-mosbeh%C2%A0-26078277"><i class='bx bxl-linkedin'></i></a>-->
-            <a href="https://kfmrc.kau.edu.sa/Content-141-AR-277443"><i class="bx bxl-google"></i></a>
+      <div class="col-lg-3 col-md-4 card " style="height: 576px ;">
+        <div class="team-member">
+          <div class="image">
+            <img class=img-fluid src="../assets/images/smale-nopic-log.jpg" style="width:100%;" alt="">
+            <div class="social-icons1">
+              <a href="mailto:wtarab@kau.edu.sa"><i class="bx bxl-gmail"></i></a>
+              <!--     <a href="https://twitter.com/saud_maswadi"><i class='bx bxl-twitter'></i></a>
+                                    <a href="https://sa.linkedin.com/in/nasreen-mosbeh%C2%A0-26078277"><i class='bx bxl-linkedin'></i></a>-->
+              <a href="https://kfmrc.kau.edu.sa/Content-141-AR-277443"><i class="bx bxl-google"></i></a>
+            </div>
+            <div class="overlay"></div>
           </div>
-          <div class="overlay"></div>
+          <h5>Nuha Abdullha Al Ansari</h5>
+          <p>
+            <br>
+
+          </p>
         </div>
-        <h5>Abrar Al-Qahtani</h5>
-        <p> 
-          <br>
-         
-        </p>
       </div>
-    </div>
 
-
-    <div class="col-lg-3 col-md-4 card "  style="height: 576px ;">
-      <div class="team-member">
-        <div class="image">
-          <img class=img-fluid src="../assets/images/smale-nopic-log.jpg"
-            style="width:100%;" alt="">
-          <div class="social-icons1">
-            <a href="mailto:wtarab@kau.edu.sa"><i class="bx bxl-gmail"></i></a>
-            <!--     <a href="https://twitter.com/saud_maswadi"><i class='bx bxl-twitter'></i></a>
-                                <a href="https://sa.linkedin.com/in/nasreen-mosbeh%C2%A0-26078277"><i class='bx bxl-linkedin'></i></a>-->
-            <a href="https://kfmrc.kau.edu.sa/Content-141-AR-277443"><i class="bx bxl-google"></i></a>
+      <div class="col-lg-3 col-md-4 card " style="height: 576px ;">
+        <div class="team-member">
+          <div class="image">
+            <img class=img-fluid src="../assets/images/smale-nopic-log.jpg" style="width:100%;" alt="">
+            <div class="social-icons1">
+              <a href="mailto:wtarab@kau.edu.sa"><i class="bx bxl-gmail"></i></a>
+              <!--     <a href="https://twitter.com/saud_maswadi"><i class='bx bxl-twitter'></i></a>
+                                    <a href="https://sa.linkedin.com/in/nasreen-mosbeh%C2%A0-26078277"><i class='bx bxl-linkedin'></i></a>-->
+              <a href="https://kfmrc.kau.edu.sa/Content-141-AR-277443"><i class="bx bxl-google"></i></a>
+            </div>
+            <div class="overlay"></div>
           </div>
-          <div class="overlay"></div>
+          <h5>Ohoud Faisal Subhi</h5>
+          <p>
+            <br>
+
+          </p>
         </div>
-        <h5>Emad Abdullah Al-Hamzi </h5>
-        <p> Coordinator
-          <br>
-         
-        </p>
       </div>
+
+      <div class="col-lg-3 col-md-4 card " style="height: 576px ;">
+        <div class="team-member">
+          <div class="image">
+            <img class=img-fluid src="../assets/images/smale-nopic-log.jpg" style="width:100%;" alt="">
+            <div class="social-icons1">
+              <a href="mailto:wtarab@kau.edu.sa"><i class="bx bxl-gmail"></i></a>
+              <!--     <a href="https://twitter.com/saud_maswadi"><i class='bx bxl-twitter'></i></a>
+                                    <a href="https://sa.linkedin.com/in/nasreen-mosbeh%C2%A0-26078277"><i class='bx bxl-linkedin'></i></a>-->
+              <a href="https://kfmrc.kau.edu.sa/Content-141-AR-277443"><i class="bx bxl-google"></i></a>
+            </div>
+            <div class="overlay"></div>
+          </div>
+          <h5> Alla Albugami</h5>
+          <p>
+            <br>
+
+          </p>
+        </div>
+      </div>
+
+      <div class="col-lg-3 col-md-4 card " style="height: 576px ;">
+        <div class="team-member">
+          <div class="image">
+            <img class=img-fluid src="../assets/images/smale-nopic-log.jpg" style="width:100%;" alt="">
+            <div class="social-icons1">
+              <a href="mailto:wtarab@kau.edu.sa"><i class="bx bxl-gmail"></i></a>
+              <!--     <a href="https://twitter.com/saud_maswadi"><i class='bx bxl-twitter'></i></a>
+                                    <a href="https://sa.linkedin.com/in/nasreen-mosbeh%C2%A0-26078277"><i class='bx bxl-linkedin'></i></a>-->
+              <a href="https://kfmrc.kau.edu.sa/Content-141-AR-277443"><i class="bx bxl-google"></i></a>
+            </div>
+            <div class="overlay"></div>
+          </div>
+          <h5>Huda Abdulrahman Banni</h5>
+          <p>
+            <br>
+
+          </p>
+        </div>
+      </div>
+
+      <div class="col-lg-3 col-md-4 card " style="height: 576px ;">
+        <div class="team-member">
+          <div class="image">
+            <img class=img-fluid src="../assets/images/smale-nopic-log.jpg" style="width:100%;" alt="">
+            <div class="social-icons1">
+              <a href="mailto:wtarab@kau.edu.sa"><i class="bx bxl-gmail"></i></a>
+              <!--     <a href="https://twitter.com/saud_maswadi"><i class='bx bxl-twitter'></i></a>
+                                    <a href="https://sa.linkedin.com/in/nasreen-mosbeh%C2%A0-26078277"><i class='bx bxl-linkedin'></i></a>-->
+              <a href="https://kfmrc.kau.edu.sa/Content-141-AR-277443"><i class="bx bxl-google"></i></a>
+            </div>
+            <div class="overlay"></div>
+          </div>
+          <h5>Ghalia Basher Baba</h5>
+          <p>
+            <br>
+
+          </p>
+        </div>
+      </div>
+
+      <!------------------------------------------------------------------------------------------------->
     </div>
-    <!------------------------------------------------------------------------------------------------->
   </div>
-</div>
-</div>
-</section>
-<!--end row-->
+  </div>
+  </section>
+  <!--end row-->
 
 
 
 
 
-
-
-
-
-
-    <!--  ----------------------------------------  -->
-    <!-- FOOTER KAU MODIFIED By Renad  -->
-    <footer class="footer mt-auto py-3">
-
-      <footer class="footer mt-auto py-3">
-        <div class="container">
-          <div class="row">
-            <div class="col-sm-3 icon">
-              <a href="https://www.kau.edu.sa/"><img src="../assets/images/kau_logo_footer.png"
-                  style="width: 100%; margin-top: 30px;" alt=""></a>
-              <div style="text-align: center">
-                <a href="https://cic.kau.edu.sa" style="text-decoration: none;">
-                  <span class="footer-one-data">مركز التواصل والمعلومات</span>
-                  <br>
-                </a>
-                <div class="pulse">
-                  <a href="https://cic.kau.edu.sa" style="text-decoration: none;">
-                    <table style="border:0px;text-align:center;direction:rtl;margin:Auto">
-                      <tbody>
-                        <tr>
-                          <td><span class="footer-one-naber">MyKau</span></td>
-                          <td><span class="footer-one-naber">-800-11</span></td>
-                        </tr>
-                        <tr>
-                          <td><span class="footer-one-naber">69528</span></td>
-                          <td><span class="footer-one-naber">-800-11</span></td>
-                        </tr>
-                        <tr></tr>
-                      </tbody>
-                    </table>
-                  </a><a href="https://edc.kau.edu.sa/" style="text-decoration: none;">
-                    <table style="width: 240px; border: 0px; text-align: center;margin:auto; direction:rtl">
-                      <tbody>
-                        <tr>
-                          <td><span class="footer-one-naber"
-                              style="font-family: DroidKufi-Regular; font-size: 14px; color: #8a8a8a">مركز الطوارئ و
-                              الكوارث</span></td>
-                          <td><span class="footer-one-naber"><span style="color: #8a8a8a">695</span><span
-                                style="color: #ff3c3c">0999</span></span></td>
-                        </tr>
-                      </tbody>
-                    </table>
-                  </a>
-                </div>
-              </div>
-            </div>
-            <div class="col-sm-3">
-              <h5>عن الجامعة</h5>
-              <hr>
-              <ul style="margin-top: 41px;">
-                <li><a href="https://www.kau.edu.sa//Pages-282186.aspx">معلومات عامة</a></li>
-                <li><a href="https://www.kau.edu.sa//Content-0-AR-285334">الخطة الاستراتيجية</a></li>
-                <li><a href="https://www.kau.edu.sa//Content-0-AR-285355">الاعتمادات الأكاديمية</a></li>
-                <li><a href="https://www.kau.edu.sa//jobnews.aspx?Site_ID=0&lng=ar&type=lst">التوظيف</a></li>
-                <li><a href="https://www.kau.edu.sa//Content-0-AR-282192">الخريجون</a></li>
-                <li><a href="https://www.kau.edu.sa//Content-0-AR-282190">الموظفين</a></li>
-                <li><a href="https://www.kau.edu.sa//Pages-od.aspx">البيانات المفتوحة</a></li>
-              </ul>
-            </div>
-            <div class="col-sm-3">
-              <h5>القبول والتسجيل</h5>
-              <hr>
-              <ul style="margin-top: 41px;">
-                <li><a href="https://www.kau.edu.sa//Content-0-ar-285332">القبول</a></li>
-                <li><a href="https://dsa-scholarships.kau.edu.sa/Default-211995-AR">المنح الدراسية للطلبة الدوليين</a>
-                </li>
-                <li><a href="https://www.kau.edu.sa//Content-0-AR-285332">برامج الجامعة الدراسية</a></li>
-                <li><a href="#">الإجراءات واللوائح العامة</a></li>
-              </ul>
-            </div>
-            <div class="col-sm-3">
-              <h5>روابط تهمك</h5>
-              <hr>
-              <ul style="margin-top: 41px;">
-                <li><a href="https://www.kau.edu.sa/Content-0-AR-285326">الخدمات الإلكترونية</a></li>
-                <li><a href="https://www.kau.edu.sa//KAUEvents.aspx">الأحداث</a></li>
-                <li><a href="https://www.kau.edu.sa//Content-0-AR-285330">الطلبة الحاليين</a></li>
-                <li><a href="https://library.kau.edu.sa/">المكتبة</a></li>
-                <li><a href="https://www.kau.edu.sa//Content-0-AR-285333">البحث والابتكار</a></li>
-                <li><a href="https://www.kau.edu.sa//content-0-ar-285327">الحياة الجامعية</a></li>
-                <li><a href="https://www.kau.edu.sa//content-0-ar-285353">المسؤولية المجتمعية</a></li>
-              </ul>
-            </div>
-            <div class="col-sm-4"></div>
-          </div>
-          <div class="row br pt-3">
-            <div class="col-lg-4 col-md-12 text-center mt-1">
-              <p>جميع الحقوق محفوظة لجامعة الملك عبدالعزيز 2023 </p>
-            </div>
-            <div class="col-lg-4 col-md-12 text-center socia_logo mt-1">
-              <a href="/Default-223111-AR"><img src="../assets/images/socia_networks_02_footer.png" alt=""></a>
-              <a href="https://www.youtube.com/user/kauUniversity"> <img
-                  src="../assets/images/socia_networks_06_footer.png" alt=""></a>
-              <a href="https://www.facebook.com/KingAbdulazizUniversity"> <img
-                  src="../assets/images/socia_networks_07_footer.png" alt=""></a>
-              <a href="https://twitter.com/kauweb"> <img src="../assets/images/socia_networks_08_footer.png" alt=""></a>
-            </div>
-            <div class="col-lg-4 col-md-12 text-center mt-1">
-              <a href="https://www.kau.edu.sa/Content-0-AR-285331" class="link_l">سياسة الاستخدام والنشر</a>
-              <a href="https://www.kau.edu.sa/Pages-اتصل-بنا.aspx">اتصل بنا</a>
-            </div>
+  <div class="container container-fluid">
+    <div class="row">
+      <div class="col-12">
+        <div class="intro">
+          <div>
+            <p style="display:inline-block; ">
+            <h5 style="direction: ltr;">Biobank Lab </h5>
+            <ul style="margin-top: 60px;">
+            </ul>
+            </p>
           </div>
         </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container" id="MyCards">
+    <div class="row row-cols-3" style="direction: ltr;">
+      <div class="col-lg-3 col-md-4 card " style="height: 576px ;">
+        <div class="team-member">
+          <div class="image">
+            <img class=img-fluid src="../assets/images/smale-nopic-log.jpg" style="width:100%;" alt="">
+            <div class="social-icons1">
+              <a href="mailto:wtarab@kau.edu.sa"><i class="bx bxl-gmail"></i></a>
+              <!--     <a href="https://twitter.com/saud_maswadi"><i class='bx bxl-twitter'></i></a>
+                                <a href="https://sa.linkedin.com/in/nasreen-mosbeh%C2%A0-26078277"><i class='bx bxl-linkedin'></i></a>-->
+              <a href="https://kfmrc.kau.edu.sa/Content-141-AR-277443"><i class="bx bxl-google"></i></a>
+            </div>
+            <div class="overlay"></div>
+          </div>
+          <h5>Abrar Al-Qahtani</h5>
+          <p>
+            <br>
+
+          </p>
+        </div>
+      </div>
 
 
-      </footer>
+      <div class="col-lg-3 col-md-4 card " style="height: 576px ;">
+        <div class="team-member">
+          <div class="image">
+            <img class=img-fluid src="../assets/images/smale-nopic-log.jpg" style="width:100%;" alt="">
+            <div class="social-icons1">
+              <a href="mailto:wtarab@kau.edu.sa"><i class="bx bxl-gmail"></i></a>
+              <!--     <a href="https://twitter.com/saud_maswadi"><i class='bx bxl-twitter'></i></a>
+                                <a href="https://sa.linkedin.com/in/nasreen-mosbeh%C2%A0-26078277"><i class='bx bxl-linkedin'></i></a>-->
+              <a href="https://kfmrc.kau.edu.sa/Content-141-AR-277443"><i class="bx bxl-google"></i></a>
+            </div>
+            <div class="overlay"></div>
+          </div>
+          <h5>Emad Abdullah Al-Hamzi </h5>
+          <p> Coordinator
+            <br>
 
-    </footer>
-
-
-    <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
-
-
+          </p>
+        </div>
+      </div>
+      <!------------------------------------------------------------------------------------------------->
+    </div>
+  </div>
+  </div>
+  </section>
+  <!--end row-->
 </body>
 
+<!-- FOOTER KAU MODIFIED By Renad  -->
+<footer class="footer mt-auto py-3" style="background-color: #232323;">
+  <!-- footer  ======================================= -->
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-3 icon">
+        <img src="img/kau_logo_f.png" style="width: 100%; margin-top: 30px;" alt="">
+        <div style="text-align: center">
+          <a href="https://cic.kau.edu.sa/Default.aspx?Site_ID=777&amp;Lng=EN" style="text-decoration: none;">
+            <span class="footer-one-data" style="color:#8a8a8a">Communication and Information Center</span>
+            <br>
+          </a>
+          <div class="pulse">
+            <a href="https://cic.kau.edu.sa/Default.aspx?Site_ID=777&amp;Lng=EN" style="text-decoration: none; ">
 
+              <table dir="rtl" style="margin: Auto" style="color:#8a8a8a">
+                <tbody>
+                  <tr>
+                    <td><span class="footer-one-naber" style="color:#8a8a8a">MyKau</span></td>
+                    <td><span class="footer-one-naber" style="color:#8a8a8a">-800-11</span></td>
+                  </tr>
+                  <tr>
+                    <td><span class="footer-one-naber" style="color:#8a8a8a">69528</span></td>
+                    <td><span class="footer-one-naber" style="color:#8a8a8a">-800-11</span></td>
+                  </tr>
+                </tbody>
+              </table>
+            </a>
+            <a href="https://edc.kau.edu.sa/" style="text-decoration: none;">
+              <table width="240" ; border="0" ; align="center" ; cellpadding="0" cellspacing="0" dir="ltr"
+                style="margin: Auto">
+                <tbody>
+                  <tr>
+                    <td><span class="footer-one-naber"
+                        style="font-family: DroidKufi-Regular; font-size: 14px; color: #fff; direction: ltr; text-align: right">Emergency
+                        and Disaster Center (EDC)</span></td>
+                    <td><span class="footer-one-naber"><span style="color: #fff">695</span><span
+                          style="color: #ff3c3c">0999</span></span></td>
+                  </tr>
+                </tbody>
+              </table>
+            </a>
+          </div>
+        </div>
+
+      </div>
+      <div class="col-sm-3">
+        <h5 style="color: azure;">About the University</h5>
+        <hr>
+        <ul style="margin-top: 41px;">
+          <li><a href="https://www.kau.edu.sa/Content-0-EN-282186" style="color:#8a8a8a">About</a>
+          </li>
+          <li><a href="https://www.kau.edu.sa/Content-0-en-285334" style="color:#8a8a8a">Strategic Plan</a>
+          </li>
+          <li><a href="https://www.kau.edu.sa/Content-0-en-285355" style="color:#8a8a8a">Academic
+              Accreditation</a></li>
+          <li><a href="https://www.kau.edu.sa//jobnews.aspx?Site_ID=0&amp;lng=en&amp;type=lst"
+              style="color:#8a8a8a">Jobs</a>
+          </li>
+          <li><a href="https://www.kau.edu.sa/Content-0-en-282192" style="color:#8a8a8a">Alumni</a></li>
+          <li><a href="https://www.kau.edu.sa/Content-0-en-282190" style="color:#8a8a8a">Employees</a></li>
+          <li><a href="/Pages-od.aspx" style="color:#8a8a8a"></a>Open Data</li>
+        </ul>
+      </div>
+      <div class="col-sm-3">
+        <h5 style="color: azure;">Admission</h5>
+        <hr>
+        <ul style="margin-top: 41px;">
+          <li><a href="https://www.kau.edu.sa/Content-0-EN-285332" style="color:#8a8a8a">Admission</a></li>
+          <li><a href="https://dsa-scholarships.kau.edu.sa/Default-211995-EN" style="color:#8a8a8a">Scholarship for
+              International Students</a></li>
+          <li><a href="https://www.kau.edu.sa/Content-0-EN-285332" style="color:#8a8a8a">Academic Programs</a>
+          </li>
+          <li><a href="#" style="color:#8a8a8a">Academic Regulations and procedures</a></li>
+        </ul>
+      </div>
+      <div class="col-sm-3">
+        <h5 style="color: azure;">Links of Interest</h5>
+        <hr>
+        <ul style="margin-top: 41px;">
+          <li><a href="https://www.kau.edu.sa/Content-0-EN-285326" style="color:#8a8a8a">E-Services</a></li>
+          <li><a href="https://www.kau.edu.sa//KAUEvents.aspx" style="color:#8a8a8a">Events</a></li>
+          <li><a href="https://www.kau.edu.sa/Content-0-EN-285330" style="color:#8a8a8a">Current Students</a>
+          </li>
+          <li><a href="https://library.kau.edu.sa/" style="color:#8a8a8a"></a>Library</a></li>
+          <li><a href="https://www.kau.edu.sa/Content-0-EN-285333" style="color:#8a8a8a">Research and
+              Innovation</a>
+          </li>
+          <li><a href="https://www.kau.edu.sa/Content-0-EN-285327" style="color:#8a8a8a">KAU Life </a></li>
+          <li><a href="https://www.kau.edu.sa/Content-0-EN-285353" style="color:#8a8a8a">community service</a>
+          </li>
+        </ul>
+      </div>
+      <div class="col-sm-4"></div>
+    </div>
+    <div class="row br pt-3">
+      <div class="col-lg-4 col-md-12 text-center mt-1" style="color:#8a8a8a">
+        <p>All Rights reserved King Abdulaziz University 2023</p>
+      </div>
+      <div class="col-lg-4 col-md-12 text-center socia_logo mt-1 ">
+        <a href="https://www.kau.edu.sa/Default-223111-EN"><img src="img/socia_networks_02.png" alt=""></a>
+        <a href="https://www.youtube.com/user/kauUniversity"><img src="img/socia_networks_06.png" alt=""></a>
+        <a href="https://www.facebook.com/KingAbdulazizUniversity"><img src="img/socia_networks_07.png" alt=""></a>
+        <a href="https://twitter.com/kauweb"> <img src="img/socia_networks_08.png" alt=""></a>
+      </div>
+      <div class="col-lg-4 col-md-12 text-center mt-1">
+        <a href="#" class="link_l" style="color:#8a8a8a">Privacy Policies</a>
+        <a href="https://www.kau.edu.sa/Content-0-EN-6659" class="link_l">Site Map</a> <a href="#"
+          style="color:#8a8a8a">call us</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src="../assets/dist/js/bootstrap.bundle.min.js"></script> 
+<script type="text/javascript" src="../assets/Pages.js"></script>
 </html>
